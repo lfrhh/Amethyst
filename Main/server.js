@@ -85,7 +85,7 @@ client.commands = new Collection();
 loadCommands(client.commands, path.join(__dirname, 'commands'))
 
 // Events
-client.on("messageCreate", (message) => {
+client.on("messageCreate", async (message) => {
   if (message.author.bot) return;
   let prefix = await client.db.get(`Server/${message.guild.id}/prefix`) || ".";
   

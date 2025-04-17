@@ -3,7 +3,7 @@ const { colors, devs } = require('../../configs.json');
 
 module.exports = {
     name: 'eval',
-    async execute(message, args) {
+    async execute(message, args, client) {
         if (!devs.includes(message.author.id)) return;
 
         const code = args.join(' ');

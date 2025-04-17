@@ -32,27 +32,10 @@ const token = process.env.bot_token
 
 // Funções 
 client.myFunc = {
-  refreshSpotify: async function() {
-    const currentAccessToken = client.spotifyApi.getAccessToken();
-    const tokenExpirationTime = client.db.get('Vortexy/spotify/refresh') || 0;
-
-    if (Date.now() >= tokenExpirationTime) {
-      try {
-        const data = await client.spotifyApi.refreshAccessToken();
-        const newAccessToken = data.body['access_token'];
-
-        client.spotifyApi.setAccessToken(newAccessToken);
-        client.db.set('Vortexy/spotify/refresh', (Date.now() + 3600000));
-        client.db.set('Vortexy/spotify/accessToken', newAccessToken)
-      } catch (error) {
-        console.error(chalk.red.bold('[ SPOTIFY ] Erro ao renovar o token:', error));
-      }
-    }
-  },
-  getLyrics: async function(msc, art, type) {
+  getWaifuIm: async function(tags) {
     try {
-      const response = await axios.get(`https://musixmatch-lyrics-songs.p.rapidapi.com/songs/lyrics?t=${msc}&a=${art}&type=${type}`, { headers: { "x-rapidapi-key": process.env.paxsenix } });
-      return { success: true, lyrics: response.data, status: response.status }
+      const response = await axios.get(`https://api.waifu.im/search?included_tags=${tags}`);
+      return { success: true, data: response.data, status: response.status }
     } catch {
       return { success: false }
     }

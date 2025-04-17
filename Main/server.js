@@ -32,9 +32,9 @@ const token = process.env.bot_token
 
 // Funções 
 client.myFunc = {
-  getWaifuIm: async function(tags) {
+  getWaifuIm: async function(tags, num) {
     try {
-      const response = await axios.get(`https://api.waifu.im/search?included_tags=${tags}`);
+      const response = await axios.get(`https://api.waifu.im/search?included_tags=${tags}&limit=${num}&is_nsfw=true`);
       return { success: true, data: response.data, status: response.status }
     } catch {
       return { success: false }

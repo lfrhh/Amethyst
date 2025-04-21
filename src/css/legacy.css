@@ -1,0 +1,52 @@
+/* Zerar CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fundo: Animado & Degradê */
+body {
+  background: linear-gradient(135deg, #000000, #170725, #2C0443, #571792);
+  background-size: 400% 400%;
+  animation: neonMove 15s ease infinite;
+  min-height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+  color: #E6E6E6;
+}
+@keyframes neonMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Padrões */
+button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #453852;
+  color: #E6E6E6;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #aabbcc;
+}
+
+/* Centralizar */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+div {
+  display: flex;
+  flex-direction: column
+}

@@ -1,8 +1,38 @@
+/* Fonts - Import */
+@font-face {
+   font-family: Momentz;
+   src: url(../fonts/Momentz.ttf);
+}
+
 /* Zerar CSS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* Cabeçalho */
+.xapa {
+  height: 40px;
+  width: 365px;
+  border-radius: 5px;
+  z-index: 1000;
+  background-color: rgba(69, 56, 82, 0.5);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+}
+
+.brand h4 {
+  color: #E6E6E6;
+  font-family: Momentz;
+}
+
+.interact img {
+  display: block;
+  width: 25px;
+  height: 25px;
 }
 
 /* Fundo: Animado & Degradê */
@@ -69,6 +99,7 @@ a {
 /* Centralizar */
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -90,7 +121,6 @@ body {
 }
 
 /* Animações */
-
 button:hover,
 button:active {
   background: rgba(69, 56, 82, 0.8);
@@ -105,6 +135,33 @@ button:active {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+  }
+  
+  /* Cabeçalho */
+  .xapa {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    z-index: 1000;
+    background-color: rgba(69, 56, 82, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+  }
+
+  .brand h4 {
+    color: #E6E6E6;
+    font-family: Momentz;
+  }
+
+  .interact img {
+    display: block;
+    width: 25px;
+    height: 25px;
   }
   
   .copy {

@@ -19,23 +19,18 @@
 
 <body>
   <div class="background">
-    <svg class="gooey">
-      <defs>
-        <filter id="goo">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="20" result="blur" />
-          <feColorMatrix in="blur" mode="matrix"
-            values="1 0 0 0 0  
-                    0 1 0 0 0  
-                    0 0 1 0 0  
-                    0 0 0 30 -15" result="goo" />
-          <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
-        </filter>
-      </defs>
-    </svg>
-    
     <div class="blob"></div>
     <div class="blob"></div>
     <div class="blob"></div>
+  </div>
+  
+  <div class="xapa">
+    <div class="brand">
+      <h4>~`Amethyst></h>
+    </div>
+    <div class="interact">
+      <img src="src/svgs/command.svg">
+    </div>
   </div>
 
   <img src="src/avatar.gif">

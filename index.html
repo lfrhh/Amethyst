@@ -19,35 +19,38 @@
 
 <body>
   <div class="background">
+    <svg class="gooey">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="20" result="blur" />
+          <feColorMatrix in="blur" mode="matrix"
+            values="1 0 0 0 0  
+                    0 1 0 0 0  
+                    0 0 1 0 0  
+                    0 0 0 30 -15" result="goo" />
+          <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+        </filter>
+      </defs>
+    </svg>
+    
     <div class="blob"></div>
     <div class="blob"></div>
     <div class="blob"></div>
   </div>
 
   <img src="src/avatar.png">
-  <div class="btns">
-    <button onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=1206191775828545546'">Add me</button>
-    <button onclick="window.location.href='https://discord.gg/NzcZy6dPYt'">Support</button>
+  <div class="btn">
+    <div class="btns">
+      <button onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=1206191775828545546'">Add me</button>
+      <button onclick="window.location.href='https://discord.gg/NzcZy6dPYt'">Support</button>
+    </div>
+    <div class="btns2">
+      <button onclick="window.location.href='terms.html'">Terms</button>
+      <button onclick="window.location.href='privacy.html'">Privacy</button>
+    </div>
+    <footer class="copy">
+    © 2025 Amethyst — All rights reserved.
+    </footer>
   </div>
-  <div class="btns2">
-    <button onclick="window.location.href='terms.html'">Terms</button>
-    <button onclick="window.location.href='privacy.html'">Privacy</button>
-  </div>
-  
-  <footer style="
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 5px;
-    border-radius: 4px;
-    background: rgba(0, 0, 0, 0.4);
-    color: #E6E6E6;
-    text-align: center;
-    padding: 8px;
-    font-size: 10px;
-    font-weight: bold;
-    z-index: 1000;
-  ">
-  © 2025 Amethyst — All rights reserved.
-  </footer>
 </body>
 </html>

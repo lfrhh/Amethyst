@@ -8,6 +8,7 @@
 /* Fundo: Animado & Degradê */
 .background {
   position: fixed;
+  top: -50px;
   width: calc(100% + 100px);
   height: calc(100% + 100px);
   background: #C5AFE9;

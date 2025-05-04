@@ -61,7 +61,7 @@ button {
 a {
   font-weight: bold;
   text-decoration: none;
-  color: #aabbcc;
+  color: #616D78;
 }
 
 /* Centralizar */
@@ -118,7 +118,7 @@ body {
     background: rgba(69, 56, 82, 0.5);
     color: #E6E6E6;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 5px;
     width: 100px;
     height: 30px;

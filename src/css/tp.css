@@ -1,0 +1,13 @@
+.texts {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .texts {
+    font-size: 30px;
+  }
+}

@@ -42,7 +42,7 @@
   width: calc(100% + 100px);
   height: calc(100% + 100px);
   background: #E01E37;
-  filter: blur(40px);
+  filter: blur(20px);
   z-index: -1;
   overflow: hidden;
 }

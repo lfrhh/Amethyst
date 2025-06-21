@@ -1,85 +1,85 @@
 {
     "misce": [
-        "Miscellaneous",
+        "Varie",
         {
             "command": "quote",
-            "desc": "Get a random quote",
+            "desc": "Ottieni una citazione casuale",
             "usage": "/quote"
         },
         {
             "command": "aniquote",
-            "desc": "Get an anime quote",
+            "desc": "Ottieni una citazione anime",
             "usage": "/aniquote"
         }
     ],
     "utils": [
-        "Utils",
+        "Utilità",
         {
             "command": "ping",
-            "desc": "Check bot latency",
+            "desc": "Controlla la latenza del bot",
             "usage": "/ping"
         },
         {
             "command": "botinfo",
-            "desc": "Bot status and info",
+            "desc": "Stato e informazioni del bot",
             "usage": "/botinfo"
         },
         {
             "command": "vote",
-            "desc": "Vote for the bot",
+            "desc": "Vota per il bot",
             "usage": "/vote"
         },
         {
             "command": "preference",
-            "desc": "Set your preferences",
+            "desc": "Imposta le tue preferenze",
             "usage": "/preference"
         },
         {
             "command": "premium",
-            "desc": "See premium info",
+            "desc": "Vedi informazioni premium",
             "usage": "/premium"
         }
     ],
     "rp": [
-        "Roleplay",
+        "Gioco di ruolo",
         {
             "command": "kiss",
-            "desc": "Kiss a user",
+            "desc": "Bacia un utente",
             "usage": "/kiss [user]"
         },
         {
             "command": "hug",
-            "desc": "Hug a user",
+            "desc": "Abbraccia un utente",
             "usage": "/hug [user]"
         },
         {
             "command": "headpat",
-            "desc": "Headpat a user",
+            "desc": "Carezza un utente",
             "usage": "/headpat [user]"
         },
         {
             "command": "slap",
-            "desc": "Slap a user",
+            "desc": "Schiaffeggia un utente",
             "usage": "/slap [user]"
         },
         {
             "command": "bored",
-            "desc": "You're bored",
+            "desc": "Sei annoiato",
             "usage": "/bored"
         },
         {
             "command": "think",
-            "desc": "You're thinking",
+            "desc": "Stai pensando",
             "usage": "/think"
         },
         {
             "command": "blush",
-            "desc": "You're blushing",
+            "desc": "Stai arrossendo",
             "usage": "/blush"
         }
     ],
     "nsfwRL": [
-        "Real Life (+18)",
+        "Vita Reale (+18)",
         {
             "command": "rlboobs",
             "desc": "Real boobs images",

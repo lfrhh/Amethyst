@@ -1,320 +1,331 @@
 {
-    "Miscellaneous": [
-        {
-            "command": "ping",
-            "desc": "Check bot latency",
-            "usage": "`ping`"
-        },
-        {
-            "command": "botinfo",
-            "desc": "Bot status and info",
-            "usage": "`botinfo`"
-        },
-        {
-            "command": "vote",
-            "desc": "Vote for the bot",
-            "usage": "`vote`"
-        },
-        {
-            "command": "preference",
-            "desc": "Set your preferences",
-            "usage": "`preference`"
-        },
-        {
-            "command": "premium",
-            "desc": "See premium info",
-            "usage": "`premium`"
-        },
+    "misce": [
+        "Miscellaneous",
         {
             "command": "quote",
             "desc": "Get a random quote",
-            "usage": "`quote`"
+            "usage": "/quote"
         },
         {
             "command": "aniquote",
             "desc": "Get an anime quote",
-            "usage": "`aniquote`"
+            "usage": "/aniquote"
         }
     ],
-    "Roleplay": [
+    "utils": [
+        "Utils",
+        {
+            "command": "ping",
+            "desc": "Check bot latency",
+            "usage": "/ping"
+        },
+        {
+            "command": "botinfo",
+            "desc": "Bot status and info",
+            "usage": "/botinfo"
+        },
+        {
+            "command": "vote",
+            "desc": "Vote for the bot",
+            "usage": "/vote"
+        },
+        {
+            "command": "preference",
+            "desc": "Set your preferences",
+            "usage": "/preference"
+        },
+        {
+            "command": "premium",
+            "desc": "See premium info",
+            "usage": "/premium"
+        }
+    ],
+    "rp": [
+        "Roleplay",
         {
             "command": "kiss",
             "desc": "Kiss a user",
-            "usage": "`kiss [user]`"
+            "usage": "/kiss [user]"
         },
         {
             "command": "hug",
             "desc": "Hug a user",
-            "usage": "`hug [user]`"
+            "usage": "/hug [user]"
         },
         {
             "command": "headpat",
             "desc": "Headpat a user",
-            "usage": "`headpat [user]`"
+            "usage": "/headpat [user]"
         },
         {
             "command": "slap",
             "desc": "Slap a user",
-            "usage": "`slap [user]`"
+            "usage": "/slap [user]"
         },
         {
             "command": "bored",
             "desc": "You're bored",
-            "usage": "`bored`"
+            "usage": "/bored"
         },
         {
             "command": "think",
             "desc": "You're thinking",
-            "usage": "`think`"
+            "usage": "/think"
         },
         {
             "command": "blush",
             "desc": "You're blushing",
-            "usage": "`blush`"
+            "usage": "/blush"
         }
     ],
-    "Real Life": [
+    "nsfwRL": [
+        "Real Life (+18)",
         {
             "command": "rlboobs",
-            "desc": "NSFW real boobs",
-            "usage": "`rlboobs`"
+            "desc": "Real boobs images",
+            "usage": "@Amethyst#3113 rlboobs"
         },
         {
             "command": "rlass",
-            "desc": "NSFW real ass",
-            "usage": "`rlass`"
+            "desc": "Real ass images",
+            "usage": "@Amethyst#3113 rlass"
         },
         {
             "command": "rlanal",
-            "desc": "NSFW real anal",
-            "usage": "`rlanal`"
+            "desc": "Real anal images",
+            "usage": "@Amethyst#3113 rlanal"
         },
         {
             "command": "rlpussy",
-            "desc": "NSFW real pussy",
-            "usage": "`rlpussy`"
+            "desc": "Real pussy images",
+            "usage": "@Amethyst#3113 rlpussy"
         },
         {
             "command": "rlthigh",
-            "desc": "NSFW real thigh",
-            "usage": "`rlthigh`"
+            "desc": "Real thigh images",
+            "usage": "@Amethyst#3113 rlthigh"
         },
         {
             "command": "porn",
-            "desc": "Random porn",
-            "usage": "`porn`"
+            "desc": "Porn gifs",
+            "usage": "@Amethyst#3113 porn"
         },
         {
             "command": "rlblowjob",
-            "desc": "NSFW real blowjob",
-            "usage": "`rlblowjob`"
+            "desc": "Real blowjob videos",
+            "usage": "@Amethyst#3113 rlblowjob [amount]"
         },
         {
             "command": "wet",
-            "desc": "NSFW wet content",
-            "usage": "`wet`"
+            "desc": "Real wet videos",
+            "usage": "@Amethyst#3113 wet [amount]"
         },
         {
             "command": "bikini",
-            "desc": "NSFW real bikini",
-            "usage": "`bikini`"
+            "desc": "Real bikini videos",
+            "usage": "@Amethyst#3113 bikini [amount]"
         },
         {
             "command": "rlmaid",
-            "desc": "NSFW real maid",
-            "usage": "`rlmaid`"
+            "desc": "Real maid videos",
+            "usage": "@Amethyst#3113 rlmaid [amount]"
         },
         {
             "command": "rlmilf",
-            "desc": "NSFW real milf",
-            "usage": "`rlmilf`"
+            "desc": "Real milf images",
+            "usage": "@Amethyst#3113 rlmilf`"
         },
         {
             "command": "squirt",
-            "desc": "NSFW squirt",
-            "usage": "`squirt`"
+            "desc": "Squirt videos",
+            "usage": "@Amethyst#3113 squirt [amount]"
         },
         {
             "command": "lesbian",
-            "desc": "NSFW lesbian",
-            "usage": "`lesbian`"
+            "desc": "Lesbian images",
+            "usage": "@Amethyst#3113 lesbian"
         },
         {
             "command": "gay",
-            "desc": "NSFW gay",
-            "usage": "`gay`"
+            "desc": "Gay images",
+            "usage": "@Amethyst#3113 gay"
         },
         {
             "command": "cowgirl",
-            "desc": "NSFW cowgirl",
-            "usage": "`cowgirl`"
+            "desc": "Cowgirl videos",
+            "usage": "@Amethyst#3113 cowgirl [amount]"
         },
         {
             "command": "doggystyle",
-            "desc": "NSFW doggystyle",
-            "usage": "`doggystyle`"
+            "desc": "Doggystyle videos",
+            "usage": "@Amethyst#3113 doggystyle [amount]"
         },
         {
             "command": "facial",
-            "desc": "NSFW facial",
-            "usage": "`facial`"
+            "desc": "Facial cum images",
+            "usage": "@Amethyst#3113 facial"
         },
         {
             "command": "orgy",
-            "desc": "NSFW orgy",
-            "usage": "`orgy`"
+            "desc": "Orgy images",
+            "usage": "@Amethyst#3113 orgy"
         },
         {
             "command": "titjob",
-            "desc": "NSFW titjob",
-            "usage": "`titjob`"
+            "desc": "Titfuck videos",
+            "usage": "@Amethyst#3113 titjob [amount]"
+        },
+        {
+            "command": "rlcreampie",
+            "desc": "Creampie videos",
+            "usage": "@Amethyst#3113 rlcreampie [amount]"
         }
     ],
     "Hentai": [
         {
-            "command": "hboobs [amount]",
-            "desc": "NSFW hentai boobs [amount]",
-            "usage": "`hboobs [amount]`"
+            "command": "hboobs",
+            "desc": "Hentai boobs images",
+            "usage": "@Amethyst#3113 hboobs [amount]"
         },
         {
-            "command": "hbondage [amount]",
-            "desc": "NSFW hentai bondage [amount]",
-            "usage": "`hbondage [amount]`"
+            "command": "hbondage",
+            "desc": "Hentai bondage images",
+            "usage": "@Amethyst#3113 hbondage [amount]"
         },
         {
-            "command": "hbdsm [amount]",
-            "desc": "NSFW hentai bdsm [amount]",
+            "command": "hbdsm",
+            "desc": "Hentai bdsm images",
             "usage": "`hbdsm [amount]`"
         },
         {
-            "command": "hdick [amount]",
-            "desc": "NSFW hentai dick [amount]",
-            "usage": "`hdick [amount]`"
+            "command": "hdick",
+            "desc": "Hentai dick images",
+            "usage": "@Amethyst#3113 hdick [amount]"
         },
         {
-            "command": "hsquirt [amount]",
-            "desc": "NSFW hentai squirt [amount]",
-            "usage": "`hsquirt [amount]`"
+            "command": "hsquirt",
+            "desc": "Hentai squirt iamges",
+            "usage": "@Amethyst#3113 hsquirt [amount]"
         },
         {
-            "command": "horal [amount]",
-            "desc": "NSFW hentai oral [amount]",
-            "usage": "`horal [amount]`"
+            "command": "horal",
+            "desc": "Hentai oral sex images",
+            "usage": "@Amethyst#3113 horal [amount]"
         },
         {
-            "command": "hmaid [amount]",
-            "desc": "NSFW hentai maid [amount]",
-            "usage": "`hmaid [amount]`"
+            "command": "hmaid",
+            "desc": "Hmentaientai maid images",
+            "usage": "@Amethyst#3113 hmaid [amount]"
         },
         {
-            "command": "hmilf [amount]",
-            "desc": "NSFW hentai milf [amount]",
-            "usage": "`hmilf [amount]`"
+            "command": "hmilf",
+            "desc": "Hentai milf images",
+            "usage": "@Amethyst#3113 hmilf [amount]"
         },
         {
-            "command": "horgy [amount]",
-            "desc": "NSFW hentai orgy [amount]",
-            "usage": "`horgy [amount]`"
+            "command": "horgy",
+            "desc": "Hentai orgy images",
+            "usage": "@Amethyst#3113 horgy [amount]"
         },
         {
             "command": "hanal",
-            "desc": "NSFW hentai anal",
-            "usage": "`hanal`"
+            "desc": "Hentai anal sex images",
+            "usage": "@Amethyst#3113 hanal"
         },
         {
-            "command": "hblowjob [amount]",
-            "desc": "NSFW hentai blowjob [amount]",
-            "usage": "`hblowjob [amount]`"
+            "command": "hblowjob",
+            "desc": "Hentai blowjob images",
+            "usage": "@Amethyst#3113 hblowjob [amount]"
         },
         {
-            "command": "hass [amount]",
-            "desc": "NSFW hentai ass [amount]",
-            "usage": "`hass [amount]`"
+            "command": "hass",
+            "desc": "Hentai ass images",
+            "usage": "@Amethyst#3113 hass [amount]"
         },
         {
-            "command": "hneko [amount]",
-            "desc": "NSFW hentai neko [amount]",
-            "usage": "`hneko [amount]`"
+            "command": "hneko",
+            "desc": "Hentai neko images",
+            "usage": "@Amethyst#3113 hneko [amount]"
         },
         {
-            "command": "hbikini [amount]",
-            "desc": "NSFW hentai bikini [amount]",
-            "usage": "`hbikini [amount]`"
+            "command": "hbikini",
+            "desc": "Hentai bikini images",
+            "usage": "@Amethyst#3113 hbikini [amount]"
         },
         {
-            "command": "hwet [amount]",
-            "desc": "NSFW hentai wet [amount]",
-            "usage": "`hwet [amount]`"
+            "command": "hwet",
+            "desc": "Hentai wet images",
+            "usage": "@Amethyst#3113 hwet [amount]"
         },
         {
-            "command": "hcreampie [amount]",
-            "desc": "NSFW hentai creampie [amount]",
-            "usage": "`hcreampie [amount]`"
+            "command": "hcreampie",
+            "desc": "Hentai creampie images",
+            "usage": "@Amethyst#3113 hcreampie [amount]"
         },
         {
-            "command": "hfacial [amount]",
-            "desc": "NSFW hentai facial [amount]",
-            "usage": "`hfacial [amount]`"
+            "command": "hfacial",
+            "desc": "Hentai facial cum images",
+            "usage": "@Amethyst#3113 hfacial [amount]"
         },
         {
             "command": "hkitsune",
-            "desc": "NSFW hentai kitsune",
-            "usage": "`hkitsune`"
+            "desc": "Hentai kitsune images",
+            "usage": "@Amethyst#3113 hkitsune"
         },
         {
             "command": "hmidriff",
-            "desc": "NSFW hentai midriff",
-            "usage": "`hmidriff`"
+            "desc": "Hentai midriff images",
+            "usage": "@Amethyst#3113 hmidriff"
         },
         {
             "command": "hthigh",
-            "desc": "NSFW hentai thigh",
-            "usage": "`hthigh`"
+            "desc": "Hentai thigh images",
+            "usage": "@Amethyst#3113 hthigh"
         },
         {
             "command": "tentacle",
-            "desc": "NSFW hentai entacle",
-            "usage": "`tentacle`"
+            "desc": "Hentai tentacle images",
+            "usage": "@Amethyst#3113 tentacle"
         },
         {
-            "command": "furry [amount]",
-            "desc": "NSFW hentai urry [amount]",
-            "usage": "`furry [amount]`"
+            "command": "furry",
+            "desc": "Hentai furry images",
+            "usage": "@Amethyst#3113 furry [amount]"
         },
         {
-            "command": "yuri [amount]",
-            "desc": "NSFW hentai uri [amount]",
-            "usage": "`yuri [amount]`"
+            "command": "yuri",
+            "desc": "Hentai yuri images",
+            "usage": "@Amethyst#3113 yuri [amount]"
         },
         {
-            "command": "yaoi [amount]",
-            "desc": "NSFW hentai aoi [amount]",
-            "usage": "`yaoi [amount]`"
+            "command": "yaoi",
+            "desc": "Hentai yaoi images",
+            "usage": "@Amethyst#3113 yaoi [amount]"
         },
         {
-            "command": "futa [amount]",
-            "desc": "NSFW hentai uta [amount]",
-            "usage": "`futa [amount]`"
+            "command": "futa",
+            "desc": "Hentai futa images",
+            "usage": "@Amethyst#3113 futa [amount]"
         },
         {
-            "command": "trap [amount]",
-            "desc": "NSFW hentai rap [amount]",
-            "usage": "`trap [amount]`"
+            "command": "trap",
+            "desc": "Hentai trap images",
+            "usage": "@Amethyst#3113 trap [amount]"
         },
         {
-            "command": "ecchi [amount]",
-            "desc": "NSFW hentai cchi [amount]",
-            "usage": "`ecchi [amount]`"
+            "command": "ecchi",
+            "desc": "Hentai ecchi images",
+            "usage": "@Amethyst#3113 ecchi [amount]"
         },
         {
-            "command": "paizuri [amount]",
-            "desc": "NSFW hentai aizuri [amount]",
-            "usage": "`paizuri [amount]`"
+            "command": "paizuri",
+            "desc": "Hentai paizuri (titfuck) images",
+            "usage": "@Amethyst#3113 paizuri [amount]"
         },
         {
-            "command": "hentai [amount]",
-            "desc": "NSFW hentai entai [amount]",
-            "usage": "`hentai [amount]`"
+            "command": "hentai",
+            "desc": "Hentai images",
+            "usage": "@Amethyst#3113 hentai [amount]"
         }
     ]
 }

@@ -82,251 +82,246 @@
         "Vida Real (+18)",
         {
             "command": "rlboobs",
-            "desc": "Real boobs images",
+            "desc": "Imagens de peitos reais",
             "usage": "@Amethyst#3113 rlboobs"
         },
         {
             "command": "rlass",
-            "desc": "Real ass images",
+            "desc": "Imagens de bundas reais",
             "usage": "@Amethyst#3113 rlass"
         },
         {
             "command": "rlanal",
-            "desc": "Real anal images",
+            "desc": "Imagens de sexo anal",
             "usage": "@Amethyst#3113 rlanal"
         },
         {
             "command": "rlpussy",
-            "desc": "Real pussy images",
+            "desc": "Imagens de vaginas reais",
             "usage": "@Amethyst#3113 rlpussy"
         },
         {
             "command": "rlthigh",
-            "desc": "Real thigh images",
+            "desc": "Imagens de coxas",
             "usage": "@Amethyst#3113 rlthigh"
         },
         {
             "command": "porn",
-            "desc": "Porn gifs",
+            "desc": "Gifs de porno",
             "usage": "@Amethyst#3113 porn"
         },
         {
             "command": "rlblowjob",
-            "desc": "Real blowjob videos",
+            "desc": "Vídeos de mamada",
             "usage": "@Amethyst#3113 rlblowjob [amount]"
         },
         {
             "command": "wet",
-            "desc": "Real wet videos",
-            "usage": "@Amethyst#3113 wet [amount]"
+            "desc": "Vídeos de molhadas",
+            "usage": "@Amethyst#3113 wet [quantidade]"
         },
         {
             "command": "bikini",
-            "desc": "Real bikini videos",
-            "usage": "@Amethyst#3113 bikini [amount]"
+            "desc": "Videos de mulheres de biquíni",
+            "usage": "@Amethyst#3113 bikini [quantidade]"
         },
         {
             "command": "rlmaid",
-            "desc": "Real maid videos",
-            "usage": "@Amethyst#3113 rlmaid [amount]"
+            "desc": "Vídeos de mulheres vestidas de faxineira",
+            "usage": "@Amethyst#3113 rlmaid [quantidade]"
         },
         {
             "command": "rlmilf",
-            "desc": "Real milf images",
-            "usage": "@Amethyst#3113 rlmilf"
+            "desc": "Vídeos de mulheres velhas",
+            "usage": "@Amethyst#3113 rlmilf [quantidade]"
         },
         {
             "command": "squirt",
-            "desc": "Squirt videos",
-            "usage": "@Amethyst#3113 squirt [amount]"
+            "desc": "Vídeos de mulheres esguichando",
+            "usage": "@Amethyst#3113 squirt [quantidade]"
         },
         {
             "command": "lesbian",
-            "desc": "Lesbian images",
-            "usage": "@Amethyst#3113 lesbian"
+            "desc": "Vídeos de lésbicas",
+            "usage": "@Amethyst#3113 lesbian [quantidade]"
         },
         {
             "command": "gay",
-            "desc": "Gay images",
-            "usage": "@Amethyst#3113 gay"
+            "desc": "Vídeos de gays",
+            "usage": "@Amethyst#3113 gay [quantidade]"
         },
         {
             "command": "cowgirl",
-            "desc": "Cowgirl videos",
-            "usage": "@Amethyst#3113 cowgirl [amount]"
+            "desc": "Vídeos de cowgirl",
+            "usage": "@Amethyst#3113 cowgirl [quantidade]"
         },
         {
             "command": "doggystyle",
-            "desc": "Doggystyle videos",
-            "usage": "@Amethyst#3113 doggystyle [amount]"
+            "desc": "Vídeos de sexo em posição doggystyle",
+            "usage": "@Amethyst#3113 doggystyle [quantidade]"
         },
         {
             "command": "facial",
-            "desc": "Facial cum images",
-            "usage": "@Amethyst#3113 facial"
+            "desc": "Vídeos de gozada na cara",
+            "usage": "@Amethyst#3113 facial [quantidade]"
         },
         {
             "command": "orgy",
-            "desc": "Orgy images",
-            "usage": "@Amethyst#3113 orgy"
+            "desc": "Vídeos de orgia",
+            "usage": "@Amethyst#3113 orgy [quantidade]"
         },
         {
             "command": "titjob",
-            "desc": "Titfuck videos",
-            "usage": "@Amethyst#3113 titjob [amount]"
+            "desc": "Vídeos de mulheres fazendo espanhola",
+            "usage": "@Amethyst#3113 titjob [quantidade]"
         },
         {
             "command": "rlcreampie",
-            "desc": "Creampie videos",
-            "usage": "@Amethyst#3113 rlcreampie [amount]"
+            "desc": "Vídeos de creampie",
+            "usage": "@Amethyst#3113 rlcreampie [quantidade]"
         }
     ],
     "hentai": [
         "Hentai (+18)",
         {
             "command": "hboobs",
-            "desc": "Hentai boobs images",
-            "usage": "@Amethyst#3113 hboobs [amount]"
+            "desc": "Imagens de peitos hentai",
+            "usage": "@Amethyst#3113 hboobs [quantidade]"
         },
         {
             "command": "hbondage",
             "desc": "Hentai bondage images",
-            "usage": "@Amethyst#3113 hbondage [amount]"
+            "usage": "@Amethyst#3113 hbondage [quantidade]"
         },
         {
             "command": "hbdsm",
-            "desc": "Hentai bdsm images",
-            "usage": "`hbdsm [amount]`"
+            "desc": "Imagens de relação BDSM hentai",
+            "usage": "@Amethyst#3113 hbdsm [quantidade]"
         },
         {
             "command": "hdick",
-            "desc": "Hentai dick images",
-            "usage": "@Amethyst#3113 hdick [amount]"
+            "desc": "Imagens de pau hentai",
+            "usage": "@Amethyst#3113 hdick [quantidade]"
         },
         {
             "command": "hsquirt",
-            "desc": "Hentai squirt iamges",
-            "usage": "@Amethyst#3113 hsquirt [amount]"
+            "desc": "Imagens de esguicho hentai",
+            "usage": "@Amethyst#3113 hsquirt [quantidade]"
         },
         {
             "command": "horal",
-            "desc": "Hentai oral sex images",
-            "usage": "@Amethyst#3113 horal [amount]"
+            "desc": "Imagens de sexo oral hentai",
+            "usage": "@Amethyst#3113 horal [quantidade]"
         },
         {
             "command": "hmaid",
-            "desc": "Hmentaientai maid images",
-            "usage": "@Amethyst#3113 hmaid [amount]"
+            "desc": "Imagens de personagens vestidas de faxineira hentai",
+            "usage": "@Amethyst#3113 hmaid [quantidade]"
         },
         {
             "command": "hmilf",
-            "desc": "Hentai milf images",
-            "usage": "@Amethyst#3113 hmilf [amount]"
+            "desc": "Imagens de personagens velhas hentai",
+            "usage": "@Amethyst#3113 hmilf [quantidade]"
         },
         {
             "command": "horgy",
-            "desc": "Hentai orgy images",
-            "usage": "@Amethyst#3113 horgy [amount]"
+            "desc": "Imagens de orgias hentai",
+            "usage": "@Amethyst#3113 horgy [quantidade]"
         },
         {
             "command": "hanal",
-            "desc": "Hentai anal sex images",
+            "desc": "Imagens de sexo anal hentai",
             "usage": "@Amethyst#3113 hanal"
         },
         {
-            "command": "hblowjob",
-            "desc": "Hentai blowjob images",
-            "usage": "@Amethyst#3113 hblowjob [amount]"
-        },
-        {
             "command": "hass",
-            "desc": "Hentai ass images",
-            "usage": "@Amethyst#3113 hass [amount]"
+            "desc": "Imagens de bundas hentai",
+            "usage": "@Amethyst#3113 hass [quantidade]"
         },
         {
             "command": "hneko",
-            "desc": "Hentai neko images",
-            "usage": "@Amethyst#3113 hneko [amount]"
+            "desc": "Imagens de hentai neko",
+            "usage": "@Amethyst#3113 hneko [quantidade]"
         },
         {
             "command": "hbikini",
-            "desc": "Hentai bikini images",
-            "usage": "@Amethyst#3113 hbikini [amount]"
+            "desc": "Imagens de personagens de biquíni hentai",
+            "usage": "@Amethyst#3113 hbikini [quantidade]"
         },
         {
             "command": "hwet",
-            "desc": "Hentai wet images",
-            "usage": "@Amethyst#3113 hwet [amount]"
+            "desc": "Imagens de personagens molhados(as) hentai",
+            "usage": "@Amethyst#3113 hwet [quantidade]"
         },
         {
             "command": "hcreampie",
-            "desc": "Hentai creampie images",
-            "usage": "@Amethyst#3113 hcreampie [amount]"
+            "desc": "Imagens de creampie hentai",
+            "usage": "@Amethyst#3113 hcreampie [quantidade]"
         },
         {
             "command": "hfacial",
-            "desc": "Hentai facial cum images",
-            "usage": "@Amethyst#3113 hfacial [amount]"
+            "desc": "Imagens de gozada na cara hentai",
+            "usage": "@Amethyst#3113 hfacial [quantidade]"
         },
         {
             "command": "hkitsune",
-            "desc": "Hentai kitsune images",
+            "desc": "Imagens de hentai kitsune",
             "usage": "@Amethyst#3113 hkitsune"
         },
         {
             "command": "hmidriff",
-            "desc": "Hentai midriff images",
+            "desc": "Imagens de barriga hentai",
             "usage": "@Amethyst#3113 hmidriff"
         },
         {
             "command": "hthigh",
-            "desc": "Hentai thigh images",
+            "desc": "Imagens de coxas hentai",
             "usage": "@Amethyst#3113 hthigh"
         },
         {
             "command": "tentacle",
-            "desc": "Hentai tentacle images",
+            "desc": "Imagens de hentai com tentáculos",
             "usage": "@Amethyst#3113 tentacle"
         },
         {
             "command": "furry",
-            "desc": "Hentai furry images",
-            "usage": "@Amethyst#3113 furry [amount]"
+            "desc": "Imagens de hentai furry",
+            "usage": "@Amethyst#3113 furry [quantidade]"
         },
         {
             "command": "yuri",
-            "desc": "Hentai yuri images",
-            "usage": "@Amethyst#3113 yuri [amount]"
+            "desc": "Imagens de hentai lésbico",
+            "usage": "@Amethyst#3113 yuri [quantidade]"
         },
         {
             "command": "yaoi",
-            "desc": "Hentai yaoi images",
-            "usage": "@Amethyst#3113 yaoi [amount]"
+            "desc": "Imagens de hentai gay",
+            "usage": "@Amethyst#3113 yaoi [quantidade]"
         },
         {
             "command": "futa",
-            "desc": "Hentai futa images",
-            "usage": "@Amethyst#3113 futa [amount]"
+            "desc": "Imagens de hentai futanari",
+            "usage": "@Amethyst#3113 futa [quantidade]"
         },
         {
             "command": "trap",
-            "desc": "Hentai trap images",
-            "usage": "@Amethyst#3113 trap [amount]"
+            "desc": "Imagens de hentai trap",
+            "usage": "@Amethyst#3113 trap [quantidade]"
         },
         {
             "command": "ecchi",
-            "desc": "Hentai ecchi images",
-            "usage": "@Amethyst#3113 ecchi [amount]"
+            "desc": "Imagens sugestivas e sensuais hentai",
+            "usage": "@Amethyst#3113 ecchi [quantidade]"
         },
         {
             "command": "paizuri",
-            "desc": "Hentai paizuri (titfuck) images",
-            "usage": "@Amethyst#3113 paizuri [amount]"
+            "desc": "Imagens de espanhola hentai",
+            "usage": "@Amethyst#3113 paizuri [quantidade]"
         },
         {
             "command": "hentai",
-            "desc": "Hentai images",
-            "usage": "@Amethyst#3113 hentai [amount]"
+            "desc": "Imagens de hentai",
+            "usage": "@Amethyst#3113 hentai [quantidade]"
         }
     ]
 }

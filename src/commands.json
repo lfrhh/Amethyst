@@ -132,8 +132,8 @@
         },
         {
             "command": "rlmilf",
-            "desc": "Real milf images",
-            "usage": "@Amethyst#3113 rlmilf"
+            "desc": "Real milf videos",
+            "usage": "@Amethyst#3113 rlmilf [amount]"
         },
         {
             "command": "squirt",
@@ -142,13 +142,13 @@
         },
         {
             "command": "lesbian",
-            "desc": "Lesbian images",
-            "usage": "@Amethyst#3113 lesbian"
+            "desc": "Lesbian videos",
+            "usage": "@Amethyst#3113 lesbian [amount]"
         },
         {
             "command": "gay",
-            "desc": "Gay images",
-            "usage": "@Amethyst#3113 gay"
+            "desc": "Gay videos",
+            "usage": "@Amethyst#3113 gay [amount]"
         },
         {
             "command": "cowgirl",
@@ -162,13 +162,13 @@
         },
         {
             "command": "facial",
-            "desc": "Facial cum images",
-            "usage": "@Amethyst#3113 facial"
+            "desc": "Facial cum videos",
+            "usage": "@Amethyst#3113 facial [amount]"
         },
         {
             "command": "orgy",
-            "desc": "Orgy images",
-            "usage": "@Amethyst#3113 orgy"
+            "desc": "Orgy videos",
+            "usage": "@Amethyst#3113 orgy [amount]"
         },
         {
             "command": "titjob",
@@ -232,11 +232,6 @@
             "command": "hanal",
             "desc": "Hentai anal sex images",
             "usage": "@Amethyst#3113 hanal"
-        },
-        {
-            "command": "hblowjob",
-            "desc": "Hentai blowjob images",
-            "usage": "@Amethyst#3113 hblowjob [amount]"
         },
         {
             "command": "hass",

@@ -78,6 +78,14 @@
             "usage": "/blush"
         }
     ],
+    "nsfw": [
+        "NSFW Settings",
+        {
+            "command": "autoporn",
+            "desc": "Set up automated porn uploading on the server.",
+            "usage": "@Amethyst#3113 autoporn"
+        }
+    ],
     "nsfwRL": [
         "Real Life (+18)",
         {

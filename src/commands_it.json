@@ -78,6 +78,14 @@
             "usage": "/blush"
         }
     ],
+    "nsfw": [
+        "Impostazioni NSFW",
+        {
+            "command": "autoporn",
+            "desc": "Imposta il caricamento automatico di materiale pornografico sul server.",
+            "usage": "@Amethyst#3113 autoporn"
+        }
+    ],
     "nsfwRL": [
         "Vita Reale (+18)",
         {

@@ -63,6 +63,16 @@
             "usage": "/slap [user]"
         },
         {
+            "command": "punch",
+            "desc": "Punch a user",
+            "usage": "/punch [user]"
+        },
+        {
+            "command": "shoot",
+            "desc": "Shoot a user",
+            "usage": "/shoot [user]"
+        },
+        {
             "command": "bored",
             "desc": "You're bored",
             "usage": "/bored"
@@ -76,6 +86,26 @@
             "command": "blush",
             "desc": "You're blushing",
             "usage": "/blush"
+        },
+        {
+            "command": "angry",
+            "desc": "You're stressed",
+            "usage": "/angry"
+        },
+        {
+            "command": "happy",
+            "desc": "You're happy",
+            "usage": "/happy"
+        },
+        {
+            "command": "sleep",
+            "desc": "You're sleepy",
+            "usage": "/sleep"
+        },
+        {
+            "command": "laugh",
+            "desc": "You're laughing",
+            "usage": "/laugh"
         }
     ],
     "nsfw": [

@@ -45,22 +45,32 @@
         {
             "command": "kiss",
             "desc": "Beijar um usuário",
-            "usage": "/kiss [user]"
+            "usage": "/kiss [usuário]"
         },
         {
             "command": "hug",
             "desc": "Abraçar um usuário",
-            "usage": "/hug [user]"
+            "usage": "/hug [usuário]"
         },
         {
             "command": "headpat",
             "desc": "Acariciar a cabeça de um usuário",
-            "usage": "/headpat [user]"
+            "usage": "/headpat [usuário]"
         },
         {
             "command": "slap",
             "desc": "Estapear um usuário",
-            "usage": "/slap [user]"
+            "usage": "/slap [usuário]"
+        },
+        {
+            "command": "punch",
+            "desc": "Dê um soco em um usuário",
+            "usage": "/punch [usuário]"
+        },
+        {
+            "command": "shoot",
+            "desc": "Atire em um usuário",
+            "usage": "/shoot [usuário]"
         },
         {
             "command": "bored",
@@ -76,6 +86,26 @@
             "command": "blush",
             "desc": "Você está corado",
             "usage": "/blush"
+        },
+        {
+            "command": "angry",
+            "desc": "Você está estressado",
+            "usage": "/angry"
+        },
+        {
+            "command": "happy",
+            "desc": "Você está feliz",
+            "usage": "/happy"
+        },
+        {
+            "command": "sleep",
+            "desc": "Você está com sono",
+            "usage": "/sleep"
+        },
+        {
+            "command": "laugh",
+            "desc": "Você está rindo",
+            "usage": "/laugh"
         }
     ],
    "nsfw": [

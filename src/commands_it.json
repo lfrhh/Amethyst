@@ -5,11 +5,19 @@
             "command": "quote",
             "desc": "Ottieni una citazione casuale",
             "usage": "/quote"
-        },
+        }
+    ],
+    "ani": [
+        "Anime",
         {
             "command": "aniquote",
             "desc": "Ottieni una citazione anime",
             "usage": "/aniquote"
+        },
+        {
+            "command": "anime-image",
+            "desc": "Ottieni un'immagine anime casuale",
+            "usage": "/anime-image [tipo]"
         }
     ],
     "utils": [

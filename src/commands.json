@@ -15,8 +15,13 @@
             "usage": "/aniquote"
         },
         {
+            "command": "anime",
+            "desc": "Get information from an anime",
+            "usage": "/anime [name]"
+        },
+        {
             "command": "anime-image",
-            "desc": "Get a random anime image",
+            "desc": "Get an random anime image",
             "usage": "/anime-image [type]"
         }
     ],

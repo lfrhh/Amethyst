@@ -10,9 +10,9 @@
     "ani": [
         "Anime",
         {
-            "command": "aniquote",
+            "command": "anime quote",
             "desc": "Get an anime quote",
-            "usage": "/aniquote"
+            "usage": "/anime-quote"
         },
         {
             "command": "anime",
@@ -20,9 +20,14 @@
             "usage": "/anime [name]"
         },
         {
-            "command": "anime-image",
+            "command": "anime image",
             "desc": "Get an random anime image",
             "usage": "/anime-image [type]"
+        },
+        {
+            "command": "pokédex",
+            "desc": "Get information about a Pokémon",
+            "usage": "/pokédex [name/number]"
         }
     ],
     "utils": [

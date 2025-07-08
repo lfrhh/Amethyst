@@ -33,17 +33,17 @@
     "utils": [
         "Utils",
         {
-            "command": "ping",
+            "command": " Amethyst ping",
             "desc": "Check bot latency",
             "usage": "/ping"
         },
         {
-            "command": "botinfo",
+            "command": "Amethyst info",
             "desc": "Bot status and info",
-            "usage": "/botinfo"
+            "usage": "/info"
         },
         {
-            "command": "vote",
+            "command": "Amethyst vote",
             "desc": "Vote for the bot",
             "usage": "/vote"
         },

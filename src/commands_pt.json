@@ -33,17 +33,17 @@
     "utils": [
         "Utilitários",
         {
-            "command": "ping",
+            "command": "Amethyst ping",
             "desc": "Verificar latência do bot",
             "usage": "/ping"
         },
         {
-            "command": "botinfo",
+            "command": "Amethyst info",
             "desc": "Status e informações do bot",
-            "usage": "/botinfo"
+            "usage": "/info"
         },
         {
-            "command": "vote",
+            "command": "Amethyst vote",
             "desc": "Votar no bot",
             "usage": "/vote"
         },

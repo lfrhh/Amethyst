@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Cabeçalho */
@@ -17,7 +18,7 @@
   width: 365px;
   border-radius: 5px;
   z-index: 1000;
-  background-color: rgba(82, 56, 56, 0.5);
+  background-color: rgba(105, 17, 17, 0.5);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -80,7 +81,7 @@ button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background: rgba(82, 56, 56, 0.5);
+  background: rgba(105, 17, 17, 0.5);
   color: #E6E6E6;
   font-weight: bold;
   margin-bottom: 5px;
@@ -92,8 +93,8 @@ button {
 }
 a {
   font-weight: bold;
-  text-decoration: none;
-  color: #786161;
+  text-decoration: underline wavy;
+  color: #500A16;
 }
 
 /* Centralizar */
@@ -123,7 +124,7 @@ body {
 /* Animações */
 button:hover,
 button:active {
-  background: rgba(82, 56, 56, 0.8);
+  background: rgba(105, 17, 17, 0.5);
   transform: scale(1.05);
 }
 
@@ -146,7 +147,7 @@ button:active {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     z-index: 1000;
-    background-color: rgba(82, 56, 56, 0.5);
+    background-color: rgba(105, 17, 17, 0.5);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -182,7 +183,7 @@ button:active {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background: rgba(82, 56, 56, 0.5);
+    background: rgba(105, 17, 17, 0.5);
     color: #E6E6E6;
     font-weight: bold;
     font-size: 15px;

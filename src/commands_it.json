@@ -127,7 +127,7 @@
         }
     ],
     "nsfw": [
-        "Impostazioni NSFW",
+        "Impostazioni NSFW (+18)",
         {
             "command": "autoporn",
             "desc": "Imposta il caricamento automatico di materiale pornografico sul server.",

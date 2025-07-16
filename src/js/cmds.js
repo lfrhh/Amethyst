@@ -17,7 +17,6 @@ function tryLoadLangFile(index = 0) {
     .then(data => renderCommands(data))
     .catch((err) => { 
       tryLoadLangFile(index + 1) 
-      console.log(err)
     });
 }
 
@@ -29,12 +28,32 @@ function renderCommands(data) {
     const cmds = data[category];
     const categoryName = cmds.shift();
     
+    const titleDiv = document.createElement('div');
+    titleDiv.className = "category";
     const title = document.createElement('h2');
-    title.textContent = categoryName;
-    container.appendChild(title);
+    title.textContent = `› ${categoryName.replace('(+18)', '⑱')}`;
+    titleDiv.appendChild(title);
+    container.appendChild(titleDiv);
+    
+    titleDiv.addEventListener('click', () => {
+      const isActive = titleDiv.classList.contains('active');
+
+      document.querySelectorAll('.category').forEach(cat =>   {
+        cat.classList.remove('active');
+        const content = cat.querySelector('.categories-content');
+        content.style.height = '0px';
+      });
+
+      if (!isActive) {
+        titleDiv.classList.add('active');
+        titleDiv.querySelectorAll('.categories-content').forEach(ctx => ctx.style.height = ctx.scrollHeight + 'px');
+      } 
+  });
 
     cmds.forEach(cmd => {
-      const subContainer = document.createElement('div')
+      const subContainer = document.createElement('div');
+      subContainer.className = "categories-content commands";
+      
       const cmdName = document.createElement('h2');
       cmdName.innerHTML = cmd.command;
       
@@ -48,7 +67,7 @@ function renderCommands(data) {
       subContainer.appendChild(cmdDesc);
       subContainer.appendChild(cmdUsage);
       
-      container.appendChild(subContainer);
+      titleDiv.appendChild(subContainer);
     });
   }
 }

@@ -127,7 +127,7 @@
         }
     ],
     "nsfw": [
-        "NSFW Settings",
+        "NSFW Settings (+18)",
         {
             "command": "autoporn",
             "desc": "Set up automated porn uploading on the server.",

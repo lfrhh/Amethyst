@@ -24,12 +24,13 @@
   align-items: center;
   font-size: 25px;
 }
-
 .brand h4 {
   color: #E6E6E6;
   font-family: Momentz;
 }
-
+.interact {
+  display: flex;
+}
 .interact img {
   display: block;
   width: 25px;
@@ -90,6 +91,9 @@ button {
   font-size: 22px;
   transform: scale(1);
   transition: opacity 0.3s ease, transform 0.3s ease;
+}
+#add-btn {
+  width: 365px;
 }
 a {
   font-weight: bold;
@@ -153,12 +157,10 @@ button:active {
     align-items: center;
     font-size: 25px;
   }
-
   .brand h4 {
     color: #E6E6E6;
     font-family: Momentz;
   }
-
   .interact img {
     display: block;
     width: 25px;
@@ -192,5 +194,8 @@ button:active {
     height: 40px;
     transform: scale(1);
     transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  #add-btn {
+    width: 205px;
   }
 }

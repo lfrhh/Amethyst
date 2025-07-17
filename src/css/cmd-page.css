@@ -1,16 +1,17 @@
-#commands-container h2 {
-  color: #500A16;
-}
-
 .category {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   width: 308px;
   padding: 4px;
   border-radius: 5px;
+  font-size: 20px;
+}
+.usage,
+.desc {
+  font-size: 15px;
 }
 
 .categories-content {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
   height: 150px;
   width: 300px;
   border-radius: 5px;
@@ -19,7 +20,6 @@
 }
 .categories-content h2 {
   margin-bottom: 5px;
-  color: #30050C;
 }
 .categories-content p {
   margin-left: 8px;

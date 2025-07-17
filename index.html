@@ -13,42 +13,85 @@
   <title>Amethyst › Home</title>
   
   <link rel="icon" href="src/icon.png" type="image/png">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="src/css/legacy.css">
-  <link rel="stylesheet" href="src/css/home.css">
 </head>
 
-<body>
-  <div class="background">
-    <div class="blob"></div>
-    <div class="blob"></div>
-    <div class="blob"></div>
-  </div>
-  
-  <div class="xapa">
-    <div class="brand">
-      <h4>~`Amethyst></h>
-    </div>
-    <div class="interact">
-      <a href='commands.html'>
-        <img src="src/svgs/command.svg">
-      </a>
-      <a href="https://discord.gg/NzcZy6dPYt">
-        <img src="src/svgs/house-fill.svg">
-      </a>
-    </div>
-  </div>
+<body class="gradient-bg min-h-screen text-white font-sans">
+  <div class="container mx-auto px-4 py-12">
+    <header class="text-center mb-12">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">
+        <span class="brand text-red-300">`Amethyst></span>
+        <span class="text-white"> — Your favorite virtual assistant!</span>
+      </h1>
+      <p class="text-xl text-red-200 max-w-2xl mx-auto">A powerful, feature-rich Discord bot to enhance your server experience</p>
+    </header>
 
-  <img src="src/avatar.gif">
-  <div class="btn">
-    <div class="btns">
-      <button id="add-btn" onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=1206191775828545546'">Invite me</button>
-    </div>
-    <div class="btns2">
-      <button onclick="window.location.href='terms.html'">Terms</button>
-      <button onclick="window.location.href='privacy.html'">Privacy</button>
-    </div>
-    <footer class="copy">
-    © 2025 Amethyst — All rights reserved.
+    <main class="flex flex-col lg:flex-row items-center justify-center gap-12">
+      <div class="avatar-container flex-1 max-w-md">
+        <img src="src/avatar.gif"
+             alt="Amethyst Avatar"
+             class="rounded-full w-full max-w-xs mx-auto glow">
+      </div>
+      
+      <div class="flex-1 flex flex-col items-center lg:items-start space-y-8">
+        <h2 class="text-2xl font-semibold text-center lg:text-left">Get started <span class="text-red-300">Amethyst</span></h2>
+      <div class="flex flex-col sm:flex-row gap-6">
+        <a href="https://discord.com/oauth2/authorize?client_id=1206191775828545546" 
+           class="command-icon bg-red-900 hover:bg-red-800 rounded-xl p-6 flex flex-col items-center w-40 transition-all duration-300">
+          <i class="fab fa-plus" style="font-size: 70px;"></i>
+          <br>
+          <span class="font-medium">Invite me</span>
+       </a>
+       
+       <a href="https://discord.gg/NzcZy6dPYt" 
+          class="command-icon bg-red-900 hover:bg-red-800 rounded-xl p-6 flex flex-col items-center w-40 transition-all duration-300">
+          <i class="fab fa-discord" style="font-size: 70px;"></i>
+          <br>
+          <span class="font-medium">Support server</span>
+       </a>
+       
+        <a href="commands.html" 
+          class="command-icon bg-red-900 hover:bg-red-800 rounded-xl p-6 flex flex-col items-center w-40 transition-all duration-300">
+          <i class="fa-solid fa-wrench" style="font-size: 70px;"></i>
+          <br>
+          <span class="font-medium">Commands</span>
+       </a>
+      </div>
+      </div>
+      
+      <div class="flex-1 flex flex-col items-center lg:items-start space-y-8">
+        <h2 class="text-4xl font-bold text-center lg:text-left">Feature it has to offer</h2>
+        
+        <div class="bg-red-900 hover:bg-red-800 rounded-xl p-6 flex flex-col items-start w-80 transition-all duration-300">
+          <h2 class="text-red-400 text-2xl font-bold"><i class="fa-solid fa-fire text-3xl"></i> NSFW Content</h2>
+          <p><strong>Quick and practical</strong>, enjoy it easily. Everything in the palm of your hand.</p>
+        </div>
+        
+        <div class="bg-red-900 hover:bg-red-800 rounded-xl p-6 flex flex-col items-start w-80 transition-all duration-300">
+          <h2 class="text-red-400 text-2xl font-bold"><i class="fa-solid fa-handshake-simple text-3xl"></i> Roleplay</h2>
+          <p>Commands and functions for you and your server members to express yourselves</p>
+        </div>
+        
+        <div class="bg-red-900 hover:bg-red-800 rounded-xl p-6 flex flex-col items-start w-80 transition-all duration-300">
+          <h2 class="text-red-400 text-2xl font-bold"><i class="fa-solid fa-fan text-3xl"></i> Anime</h2>
+          <p>You can find <strong>everything about anime</anime> in it.</p>
+        </div>
+        
+        <div class="bg-red-900 hover:bg-red-800 rounded-xl p-6 flex flex-col items-start w-80 transition-all duration-300">
+          <h2 class="text-red-400 text-2xl font-bold"><i class="fa-solid fa-dice text-3xl"></i> Miscellaneous</h2>
+          <p>In addition to everything above, you can also find other interesting features!</p>
+        </div>
+      </div>
+    </main>
+    
+    <footer class="mt-20 text-center text-red-200 text-sm">
+      <p>© 2025 Amethyst — All rights reserved</p>
+        <div class="flex justify-center space-x-4 mt-4">
+          <a href="terms.html" class="hover:text-white transition"><i class="fa-solid fa-scroll"></i> Terms of Service</a>
+          <a href="privacy.html" class="hover:text-white transition"><i class="fa-solid fa-shield"></i> Privacy Police</a>
+        </div>
     </footer>
   </div>
 </body>

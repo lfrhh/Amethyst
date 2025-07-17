@@ -11,60 +11,47 @@
 
   <title>Amethyst › Privacy</title>
   <link rel="icon" href="src/icon.png" type="image/png">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="src/css/legacy.css">
-  <link rel="stylesheet" href="src/css/tp.css">
 </head>
-<body>
-  <div class="background">
-    <div class="blob"></div>
-    <div class="blob"></div>
-    <div class="blob"></div>
-  </div>
-  
-  <div class="texts">
-  <h1>Privacy Policy</h1>
-  <p style="color: rgb(20,20,20,0.8)">Last updated: April 21, 2025</p><br>
+<body class="gradient-bg min-h-screen p-10 text-white">
+  <div class="texts flex flex-col items-center">
+  <h1 class="text-4xl text-red-400 font-black"><i class="fa-solid fa-shield"></i> Privacy Policy</h1>
+  <p style="color: rgb(200,200,200,0.6)">Last updated: April 21, 2025</p><br>
 
-  <h2>Introduction</h2>
+  <h2 class="text-3xl text-red-300 font-bold">Introduction</h2>
   <p>This Privacy Policy explains how we collect, use, and protect the personal information of users interacting with our Discord bot.</p><br>
 
-  <h2>Data Collection</h2>
+  <h2 class="text-3xl text-red-300 font-bold">Data Collection</h2>
   <p>Our bot collects the following data from users:</p>
   <ul>
     <li><strong>User Name:</strong> The name displayed on Discord.</li>
     <li><strong>User ID:</strong> The unique identifier assigned to each user by Discord.</li>
   </ul><br>
 
-  <h2>Use of Data</h2>
+  <h2 class="text-3xl text-red-300 font-bold">Use of Data</h2>
   <p>The data we collect is used exclusively to enhance the user experience and to ensure the proper functioning of the bot's features and systems. This may include personalizing responses, tracking interactions, and maintaining functionality.</p><br>
 
-  <h2>Data Protection</h2>
+  <h2 class="text-3xl text-red-300 font-bold">Data Protection</h2>
   <p>We take the protection of your data seriously. All collected data is stored securely and is not shared with third parties except when required for operational purposes or by law.</p><br>
 
-  <h2>Data Access and Control</h2>
-  <p>As a user, you have the right to access, modify, or delete your data stored by the bot. If you have any concerns or requests regarding your data, please <a href="https://discord.gg/NzcZy6dPYt">contact us directly via our support server</a>.</p><br>
+  <h2 class="text-3xl text-red-300 font-bold">Data Access and Control</h2>
+  <p>As a user, you have the right to access, modify, or delete your data stored by the bot. If you have any concerns or requests regarding your data, please <a href="https://discord.gg/NzcZy6dPYt" class="sup text-red-400">contact us directly via our support server</a>.</p><br>
 
-  <h2>Changes to This Privacy Policy</h2>
+  <h2 class="text-3xl text-red-300 font-bold">Changes to This Privacy Policy</h2>
   <p>We may update this Privacy Policy from time to time. Any changes will be reflected here, with the updated date at the top of the page. We encourage users to review this policy periodically.</p><br>
 
-  <h2>Contact Us</h2>
-  <p>If you have any questions about this Privacy Policy, feel free to reach out to us through our <a href="https://discord.gg/NzcZy6dPYt">support server on Discord.</a></p>
+  <h2 class="text-3xl text-red-300 font-bold">Contact Us</h2>
+  <p>If you have any questions about this Privacy Policy, feel free to reach out to us through our <a href="https://discord.gg/NzcZy6dPYt" class="sup text-red-400">support server on Discord.</a></p>
   </div>
   
-    <footer style="
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 5px;
-    border-radius: 4px;
-    background: rgba(0, 0, 0, 0.4);
-    color: #E6E6E6;
-    text-align: center;
-    padding: 8px;
-    font-size: 10px;
-    font-weight: bold;
-    z-index: 1000;
-  ">
-  © 2025 Amethyst — All rights reserved.
+  <footer class="mt-20 text-center text-red-200 text-sm">
+    <p>© 2025 Amethyst — All rights reserved</p>
+    <div class="flex justify-center space-x-4 mt-4">
+      <a href="terms.html" class="hover:text-white transition"><i class="fa-solid fa-scroll"></i> Terms of Service</a>
+      <a href="privacy.html" class="hover:text-white transition"><i class="fa-solid fa-shield"></i> Privacy Police</a>
+    </div>
   </footer>
 </body>
 </html>

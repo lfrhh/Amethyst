@@ -31,6 +31,7 @@ function renderCommands(data) {
     const titleDiv = document.createElement('div');
     titleDiv.className = "category";
     const title = document.createElement('h2');
+    title.className = "text-red-400 font-bold"
     title.textContent = `› ${categoryName.replace('(+18)', '⑱')}`;
     titleDiv.appendChild(title);
     container.appendChild(titleDiv);
@@ -55,12 +56,15 @@ function renderCommands(data) {
       subContainer.className = "categories-content commands";
       
       const cmdName = document.createElement('h2');
+      cmdName.className = "text-red-200 font-bold";
       cmdName.innerHTML = cmd.command;
       
       const cmdDesc = document.createElement('p');
+      cmdDesc.className = "desc text-white";
       cmdDesc.innerHTML = cmd.desc;
       
       const cmdUsage = document.createElement('p');
+      cmdUsage.className = "usage text-white";
       cmdUsage.innerHTML = `<strong>${cmd.usage}</strong>`;
       
       subContainer.appendChild(cmdName);

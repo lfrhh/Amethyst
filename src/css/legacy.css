@@ -4,198 +4,25 @@
    src: url(../fonts/Momentz.ttf);
 }
 
-/* Zerar CSS */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* Corpo */
+.gradient-bg {
+  background: linear-gradient(135deg, #C71F37 0%, #641220 100%);
 }
-
-/* Cabeçalho */
-.xapa {
-  height: 40px;
-  width: 365px;
-  border-radius: 5px;
-  z-index: 1000;
-  background-color: rgba(105, 17, 17, 0.5);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 25px;
-}
-.brand h4 {
-  color: #E6E6E6;
+.brand {
   font-family: Momentz;
 }
-.interact {
-  display: flex;
+.avatar-container {
+  animation: float 6s ease-in-out infinite;
 }
-.interact img {
-  display: block;
-  width: 25px;
-  height: 25px;
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
 }
-
-/* Fundo: Animado & Degradê */
-.background {
-  position: fixed;
-  top: -50px;
-  width: calc(100% + 100px);
-  height: calc(100% + 100px);
-  background: #E01E37;
-  filter: blur(20px);
-  z-index: -1;
-  overflow: hidden;
+.command-icon:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
 }
-
-.blob {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #85182A, #C71F37, #641220, #6E1423);
-  border-radius: 50%;
-  opacity: 0.5;
-  animation: move 20s infinite ease-in-out;
-}
-
-.blob:nth-child(2) {
-  left: 30%;
-  top: 50%;
-  animation-delay: 5s;
-}
-
-.blob:nth-child(3) {
-  left: 60%;
-  top: 20%;
-  animation-delay: 10s;
-}
-
-@keyframes move {
-  0%   { transform: translate(0, 0) scale(1); }
-  50%  { transform: translate(-100px, 150px) scale(1.3) rotate(90deg); }
-  100% { transform: translate(120px, -100px) scale(0.8) rotate(180deg); }
-}
-
-/* Padrões */
-button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background: rgba(105, 17, 17, 0.5);
-  color: #E6E6E6;
-  font-weight: bold;
-  margin-bottom: 5px;
-  width: 180px;
-  height: 50px;
-  font-size: 22px;
-  transform: scale(1);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-#add-btn {
-  width: 365px;
-}
-a {
-  font-weight: bold;
+.sup {
   text-decoration: underline wavy;
-  color: #500A16;
-}
-
-/* Centralizar */
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-.btn {
-  flex-direction: column;
-}
-.copy {
-  flex-direction: column;
-  margin-bottom: 5px;
-  border-radius: 4px;
-  background: rgba(0, 0, 0, 0.4);
-  color: #E6E6E6;
-  text-align: center;
-  padding: 8px;
-  font-size: 15px;
-  font-weight: bold;
-  z-index: 1000
-}
-
-/* Animações */
-button:hover,
-button:active {
-  background: rgba(105, 17, 17, 0.5);
-  transform: scale(1.05);
-}
-
-/* Mobile Layout */
-@media (max-width: 768px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
-  /* Cabeçalho */
-  .xapa {
-    position: fixed;
-    top: 0;
-    height: 40px;
-    width: 100%;
-    border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
-    z-index: 1000;
-    background-color: rgba(105, 17, 17, 0.5);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 25px;
-  }
-  .brand h4 {
-    color: #E6E6E6;
-    font-family: Momentz;
-  }
-  .interact img {
-    display: block;
-    width: 25px;
-    height: 25px;
-  }
-  
-  .copy {
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 5px;
-    border-radius: 4px;
-    background: rgba(0, 0, 0, 0.4);
-    color: #E6E6E6;
-    text-align: center;
-    padding: 8px;
-    font-size: 10px;
-    font-weight: bold;
-    z-index: 1000
-  }
-  
-  button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background: rgba(105, 17, 17, 0.5);
-    color: #E6E6E6;
-    font-weight: bold;
-    font-size: 15px;
-    margin-bottom: 5px;
-    width: 100px;
-    height: 40px;
-    transform: scale(1);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-  }
-  #add-btn {
-    width: 205px;
-  }
 }

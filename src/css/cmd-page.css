@@ -2,8 +2,7 @@
   position: absolute;
   height: 10;
   width: 0;
-  border-bottom: 2px;
-  border-bottom-style: solid;
+  border-bottom: 4px solid;
   border-color: #FFBBBB;
   transition: all 0.3s ease;
   z-index: 0;

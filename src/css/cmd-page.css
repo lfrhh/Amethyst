@@ -1,20 +1,26 @@
-.category {
-  background-color: rgba(0, 0, 0, 0.1);
-  width: 308px;
-  padding: 4px;
-  border-radius: 5px;
-  font-size: 20px;
+.mark {
+  position: absolute;
+  height: 10;
+  width: 0;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-color: #FFBBBB;
+  transition: all 0.3s ease;
+  z-index: 0;
 }
-.usage,
-.desc {
-  font-size: 15px;
+
+#commands-container {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .categories-content {
-  background-color: rgba(0, 0, 0, 0.1);
-  height: 150px;
+  background-color: rgba(20, 0, 0, 0.5);
+  height: 130px;
   width: 300px;
   border-radius: 5px;
+  border-left: 4px solid #C71F37;
   margin-bottom: 6px;
   padding: 20px;
 }
@@ -24,15 +30,7 @@
 .categories-content p {
   margin-left: 8px;
 }
-
-.categories-content {
-  display: none;
-  height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: height 0.3s ease, opacity 0.3s ease;
-}
-.category.active .categories-content {
-  opacity: 1;
-  display: block;
+.usage,
+.desc {
+  font-size: 15px;
 }

@@ -6,7 +6,13 @@
 
 /* Corpo */
 .gradient-bg {
-  background: linear-gradient(135deg, #C71F37 0%, #641220 100%);
+  background:
+    radial-gradient(#00000040 0.5px, transparent 0.5px),
+    radial-gradient(#00000040 0.5px, transparent 0.5px),
+    linear-gradient(135deg, #C71F37 0%, #641220 100%);
+  background-size: 20px 20px, 20px 20px, cover;
+  background-position: 0 0, 10px 10px, center;
+  background-repeat: repeat, repeat, no-repeat;
 }
 .brand {
   font-family: Momentz;

@@ -56,6 +56,11 @@
             "command": "premium",
             "desc": "See premium info",
             "usage": "/premium"
+        },
+        {
+            "command": "Claim Premium",
+            "desc": "Get premium for voting for me on Top.GG!",
+            "usage": "/claim"
         }
     ],
     "rp": [

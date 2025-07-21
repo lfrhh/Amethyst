@@ -33,12 +33,12 @@
     "utils": [
         "Utilità",
         {
-            "command": "Amethyst ping",
+            "command": "Amethyst latenza",
             "desc": "Controlla la latenza del bot",
             "usage": "/ping"
         },
         {
-            "command": "Amethyst info",
+            "command": "Amethyst informazioni",
             "desc": "Stato e informazioni del bot",
             "usage": "/info"
         },
@@ -48,14 +48,19 @@
             "usage": "/vote"
         },
         {
-            "command": "preference",
+            "command": "Preferenze",
             "desc": "Imposta le tue preferenze",
             "usage": "/preference"
         },
         {
-            "command": "premium",
+            "command": "Premium",
             "desc": "Vedi informazioni premium",
             "usage": "/premium"
+        },
+        {
+            "command": "Richiedi il premium",
+            "desc": "Guadagna Premium votando per me su Top.GG!",
+            "usage": "/claim"
         }
     ],
     "rp": [

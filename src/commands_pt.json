@@ -33,29 +33,34 @@
     "utils": [
         "Utilitários",
         {
-            "command": "Amethyst ping",
+            "command": "Amethyst latência",
             "desc": "Verificar latência do bot",
             "usage": "/ping"
         },
         {
-            "command": "Amethyst info",
+            "command": "Amethyst informações",
             "desc": "Status e informações do bot",
             "usage": "/info"
         },
         {
-            "command": "Amethyst vote",
+            "command": "Amethyst votar",
             "desc": "Votar no bot",
             "usage": "/vote"
         },
         {
-            "command": "preference",
+            "command": "Preference",
             "desc": "Definir suas preferências",
             "usage": "/preference"
         },
         {
-            "command": "premium",
+            "command": "Premium",
             "desc": "Ver informações premium",
             "usage": "/premium"
+        },
+        {
+            "command": "Resgatar Premium",
+            "desc": "Ganhe Premium votando em mim na Top.GG!",
+            "usage": "/claim"
         }
     ],
     "rp": [

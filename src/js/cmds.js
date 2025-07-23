@@ -43,16 +43,22 @@ function renderCommands(data, category) {
     cmdName.innerHTML = cmd.command;
       
     const cmdDesc = document.createElement('p');
-    cmdDesc.className = "desc text-white";
+    cmdDesc.className = "desc text-white font-medium";
     cmdDesc.innerHTML = cmd.desc;
-      
+    
+    const divV = document.createElement('div');
+    divV.className = "usage flex items-center text-white/70";
+    const cmdExample = document.createElement('i')
+    cmdExample.className = "fa-solid fa-computer-mouse"
     const cmdUsage = document.createElement('p');
-    cmdUsage.className = "usage text-white";
-    cmdUsage.innerHTML = `<strong>${cmd.usage}</strong>`;
-      
+    cmdUsage.innerHTML = cmd.usage;
+    
+    divV.appendChild(cmdExample);
+    divV.appendChild(cmdUsage);
+    
     subContainer.appendChild(cmdName);
     subContainer.appendChild(cmdDesc);
-    subContainer.appendChild(cmdUsage);
+    subContainer.appendChild(divV);
       
     container.appendChild(subContainer);
   });

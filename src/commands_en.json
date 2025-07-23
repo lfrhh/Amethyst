@@ -2,7 +2,7 @@
     "misce": [
         "Miscellaneous",
         {
-            "command": "quote",
+            "command": "/quote",
             "desc": "Get a random quote",
             "usage": "/quote"
         }
@@ -10,55 +10,55 @@
     "ani": [
         "Anime",
         {
-            "command": "anime quote",
+            "command": "/anime-quote",
             "desc": "Get an anime quote",
             "usage": "/anime-quote"
         },
         {
-            "command": "anime",
+            "command": "/anime [name]",
             "desc": "Get information from an anime",
-            "usage": "/anime [name]"
+            "usage": "/anime Kimetsu no Yaiba"
         },
         {
-            "command": "anime image",
+            "command": "/anime-image [type]",
             "desc": "Get an random anime image",
-            "usage": "/anime-image [type]"
+            "usage": "/anime-image Waifu"
         },
         {
-            "command": "pokédex",
+            "command": "/pokédex [name]",
             "desc": "Get information about a Pokémon",
-            "usage": "/pokédex [name/number]"
+            "usage": "/pokédex Pikachu"
         }
     ],
     "utils": [
         "Utils",
         {
-            "command": " Amethyst ping",
-            "desc": "Check bot latency",
+            "command": "/ping",
+            "desc": "Check Amethyst latency",
             "usage": "/ping"
         },
         {
-            "command": "Amethyst info",
-            "desc": "Bot status and info",
+            "command": "/info",
+            "desc": "Amethyst status and info",
             "usage": "/info"
         },
         {
-            "command": "Amethyst vote",
-            "desc": "Vote for the bot",
+            "command": "/vote",
+            "desc": "Vote for Amethyst",
             "usage": "/vote"
         },
         {
-            "command": "preference",
+            "command": "/preference",
             "desc": "Set your preferences",
             "usage": "/preference"
         },
         {
-            "command": "premium",
+            "command": "/premium",
             "desc": "See premium info",
             "usage": "/premium"
         },
         {
-            "command": "Claim Premium",
+            "command": "/claim",
             "desc": "Get premium for voting for me on Top.GG!",
             "usage": "/claim"
         }
@@ -66,67 +66,67 @@
     "rp": [
         "Roleplay",
         {
-            "command": "kiss",
+            "command": "/kiss [user]",
             "desc": "Kiss a user",
-            "usage": "/kiss [user]"
+            "usage": "/kiss @Amethyst#3113"
         },
         {
-            "command": "hug",
+            "command": "/hug [user]",
             "desc": "Hug a user",
-            "usage": "/hug [user]"
+            "usage": "/hug @Amethyst#3113"
         },
         {
-            "command": "headpat",
+            "command": "/headpat [user]",
             "desc": "Headpat a user",
-            "usage": "/headpat [user]"
+            "usage": "/headpat @Amethyst#3113"
         },
         {
-            "command": "slap",
+            "command": "/slap [user]",
             "desc": "Slap a user",
-            "usage": "/slap [user]"
+            "usage": "/slap @Amethyst#3113"
         },
         {
-            "command": "punch",
+            "command": "/punch [user]",
             "desc": "Punch a user",
-            "usage": "/punch [user]"
+            "usage": "/punch @Amethyst#3113"
         },
         {
-            "command": "shoot",
+            "command": "/shoot [user]",
             "desc": "Shoot a user",
-            "usage": "/shoot [user]"
+            "usage": "/shoot @Amethyst#3113"
         },
         {
-            "command": "bored",
+            "command": "/bored",
             "desc": "You're bored",
             "usage": "/bored"
         },
         {
-            "command": "think",
+            "command": "/think",
             "desc": "You're thinking",
             "usage": "/think"
         },
         {
-            "command": "blush",
+            "command": "/blush",
             "desc": "You're blushing",
             "usage": "/blush"
         },
         {
-            "command": "angry",
+            "command": "/angry",
             "desc": "You're stressed",
             "usage": "/angry"
         },
         {
-            "command": "happy",
+            "command": "/happy",
             "desc": "You're happy",
             "usage": "/happy"
         },
         {
-            "command": "sleep",
+            "command": "/sleep",
             "desc": "You're sleepy",
             "usage": "/sleep"
         },
         {
-            "command": "laugh",
+            "command": "/laugh",
             "desc": "You're laughing",
             "usage": "/laugh"
         }
@@ -172,122 +172,122 @@
             "usage": "@Amethyst#3113 porn"
         },
         {
-            "command": "rlblowjob",
+            "command": "rlblowjob (amount)",
             "desc": "Real blowjob videos",
-            "usage": "@Amethyst#3113 rlblowjob [amount]"
+            "usage": "@Amethyst#3113 rlblowjob 3"
         },
         {
-            "command": "wet",
+            "command": "wet (amount)",
             "desc": "Real wet videos",
-            "usage": "@Amethyst#3113 wet [amount]"
+            "usage": "@Amethyst#3113 wet 3"
         },
         {
-            "command": "bikini",
+            "command": "bikini (amount)",
             "desc": "Real bikini videos",
-            "usage": "@Amethyst#3113 bikini [amount]"
+            "usage": "@Amethyst#3113 bikini 3"
         },
         {
-            "command": "rlmaid",
+            "command": "rlmaid (amount)",
             "desc": "Real maid videos",
-            "usage": "@Amethyst#3113 rlmaid [amount]"
+            "usage": "@Amethyst#3113 rlmaid 3"
         },
         {
-            "command": "rlmilf",
+            "command": "rlmilf (amount)",
             "desc": "Real milf videos",
-            "usage": "@Amethyst#3113 rlmilf [amount]"
+            "usage": "@Amethyst#3113 rlmilf 3"
         },
         {
-            "command": "squirt",
+            "command": "squirt (amount)",
             "desc": "Squirt videos",
-            "usage": "@Amethyst#3113 squirt [amount]"
+            "usage": "@Amethyst#3113 squirt 3"
         },
         {
-            "command": "lesbian",
+            "command": "lesbian (amount)",
             "desc": "Lesbian videos",
-            "usage": "@Amethyst#3113 lesbian [amount]"
+            "usage": "@Amethyst#3113 lesbian 3"
         },
         {
-            "command": "gay",
+            "command": "gay (amount)",
             "desc": "Gay videos",
-            "usage": "@Amethyst#3113 gay [amount]"
+            "usage": "@Amethyst#3113 gay 3"
         },
         {
-            "command": "cowgirl",
+            "command": "cowgirl (amount)",
             "desc": "Cowgirl videos",
-            "usage": "@Amethyst#3113 cowgirl [amount]"
+            "usage": "@Amethyst#3113 cowgirl 3"
         },
         {
-            "command": "doggystyle",
+            "command": "doggystyle (amount)",
             "desc": "Doggystyle videos",
-            "usage": "@Amethyst#3113 doggystyle [amount]"
+            "usage": "@Amethyst#3113 doggystyle 3"
         },
         {
-            "command": "facial",
+            "command": "facial (amount)",
             "desc": "Facial cum videos",
-            "usage": "@Amethyst#3113 facial [amount]"
+            "usage": "@Amethyst#3113 facial 3"
         },
         {
-            "command": "orgy",
+            "command": "orgy (amount)",
             "desc": "Orgy videos",
-            "usage": "@Amethyst#3113 orgy [amount]"
+            "usage": "@Amethyst#3113 orgy 3"
         },
         {
-            "command": "titjob",
+            "command": "titjob (amount)",
             "desc": "Titfuck videos",
-            "usage": "@Amethyst#3113 titjob [amount]"
+            "usage": "@Amethyst#3113 titjob 3"
         },
         {
-            "command": "rlcreampie",
+            "command": "rlcreampie (amount)",
             "desc": "Creampie videos",
-            "usage": "@Amethyst#3113 rlcreampie [amount]"
+            "usage": "@Amethyst#3113 rlcreampie 3"
         }
     ],
     "hentai": [
         "Hentai (+18)",
         {
-            "command": "hboobs",
+            "command": "hboobs (amount)",
             "desc": "Hentai boobs images",
-            "usage": "@Amethyst#3113 hboobs [amount]"
+            "usage": "@Amethyst#3113 hboobs 3"
         },
         {
-            "command": "hbondage",
+            "command": "hbondage (amount)",
             "desc": "Hentai bondage images",
-            "usage": "@Amethyst#3113 hbondage [amount]"
+            "usage": "@Amethyst#3113 hbondage 3"
         },
         {
-            "command": "hbdsm",
+            "command": "hbdsm (amount)",
             "desc": "Hentai bdsm images",
-            "usage": "`hbdsm [amount]`"
+            "usage": "@Amethyst#3113 hbdsm 3"
         },
         {
-            "command": "hdick",
+            "command": "hdick (amount)",
             "desc": "Hentai dick images",
-            "usage": "@Amethyst#3113 hdick [amount]"
+            "usage": "@Amethyst#3113 hdick 3"
         },
         {
-            "command": "hsquirt",
+            "command": "hsquirt (amount)",
             "desc": "Hentai squirt iamges",
-            "usage": "@Amethyst#3113 hsquirt [amount]"
+            "usage": "@Amethyst#3113 hsquirt 3"
         },
         {
-            "command": "horal",
+            "command": "horal (amount)",
             "desc": "Hentai oral sex images",
-            "usage": "@Amethyst#3113 horal [amount]"
+            "usage": "@Amethyst#3113 horal 3"
         },
         {
-            "command": "hmaid",
+            "command": "hmaid (amount)",
             "desc": "Hmentaientai maid images",
-            "usage": "@Amethyst#3113 hmaid [amount]"
+            "usage": "@Amethyst#3113 hmaid 3"
         },
         {
-            "command": "hmilf",
+            "command": "hmilf (amount)",
             "desc": "Hentai milf images",
-            "usage": "@Amethyst#3113 hmilf [amount]"
+            "usage": "@Amethyst#3113 hmilf 3"
         },
         {
-            "command": "horgy",
+            "command": "horgy (amount)",
             "desc": "Hentai orgy images",
-            "usage": "@Amethyst#3113 horgy [amount]"
+            "usage": "@Amethyst#3113 horgy 3"
         },
         {
             "command": "hanal",
@@ -295,34 +295,34 @@
             "usage": "@Amethyst#3113 hanal"
         },
         {
-            "command": "hass",
+            "command": "hass (amount)",
             "desc": "Hentai ass images",
-            "usage": "@Amethyst#3113 hass [amount]"
+            "usage": "@Amethyst#3113 hass 3"
         },
         {
-            "command": "hneko",
+            "command": "hneko (amount)",
             "desc": "Hentai neko images",
-            "usage": "@Amethyst#3113 hneko [amount]"
+            "usage": "@Amethyst#3113 hneko 3"
         },
         {
-            "command": "hbikini",
+            "command": "hbikini (amount)",
             "desc": "Hentai bikini images",
-            "usage": "@Amethyst#3113 hbikini [amount]"
+            "usage": "@Amethyst#3113 hbikini 3"
         },
         {
-            "command": "hwet",
+            "command": "hwet (amount)",
             "desc": "Hentai wet images",
-            "usage": "@Amethyst#3113 hwet [amount]"
+            "usage": "@Amethyst#3113 hwet 3"
         },
         {
-            "command": "hcreampie",
+            "command": "hcreampie (amount)",
             "desc": "Hentai creampie images",
-            "usage": "@Amethyst#3113 hcreampie [amount]"
+            "usage": "@Amethyst#3113 hcreampie 3"
         },
         {
-            "command": "hfacial",
+            "command": "hfacial (amount)",
             "desc": "Hentai facial cum images",
-            "usage": "@Amethyst#3113 hfacial [amount]"
+            "usage": "@Amethyst#3113 hfacial 3"
         },
         {
             "command": "hkitsune",
@@ -345,44 +345,44 @@
             "usage": "@Amethyst#3113 tentacle"
         },
         {
-            "command": "furry",
+            "command": "furry (amount)",
             "desc": "Hentai furry images",
-            "usage": "@Amethyst#3113 furry [amount]"
+            "usage": "@Amethyst#3113 furry 3"
         },
         {
-            "command": "yuri",
+            "command": "yuri (amount)",
             "desc": "Hentai yuri images",
-            "usage": "@Amethyst#3113 yuri [amount]"
+            "usage": "@Amethyst#3113 yuri 3"
         },
         {
-            "command": "yaoi",
+            "command": "yaoi (amount)",
             "desc": "Hentai yaoi images",
-            "usage": "@Amethyst#3113 yaoi [amount]"
+            "usage": "@Amethyst#3113 yaoi 3"
         },
         {
-            "command": "futa",
+            "command": "futa (amount)",
             "desc": "Hentai futa images",
-            "usage": "@Amethyst#3113 futa [amount]"
+            "usage": "@Amethyst#3113 futa 3"
         },
         {
-            "command": "trap",
+            "command": "trap (amount)",
             "desc": "Hentai trap images",
-            "usage": "@Amethyst#3113 trap [amount]"
+            "usage": "@Amethyst#3113 trap 3"
         },
         {
-            "command": "ecchi",
+            "command": "ecchi (amount)",
             "desc": "Hentai ecchi images",
-            "usage": "@Amethyst#3113 ecchi [amount]"
+            "usage": "@Amethyst#3113 ecchi 3"
         },
         {
-            "command": "paizuri",
+            "command": "paizuri (amount)",
             "desc": "Hentai paizuri (titfuck) images",
-            "usage": "@Amethyst#3113 paizuri [amount]"
+            "usage": "@Amethyst#3113 paizuri 3"
         },
         {
-            "command": "hentai",
+            "command": "hentai (amount)",
             "desc": "Hentai images",
-            "usage": "@Amethyst#3113 hentai [amount]"
+            "usage": "@Amethyst#3113 hentai 3"
         }
     ]
 }

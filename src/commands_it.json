@@ -250,24 +250,19 @@
             "usage": "@Amethyst#3113 hboobs 3"
         },
         {
-            "command": "hbondage (quantità)",
+            "command": "hbondage",
             "desc": "Hentai bondage images",
-            "usage": "@Amethyst#3113 hbondage 3"
+            "usage": "@Amethyst#3113 hbondage"
         },
         {
-            "command": "hbdsm (quantità)",
+            "command": "hbdsm",
             "desc": "Hentai bdsm images",
-            "usage": "@Amethyst#3113 hbdsm 3"
+            "usage": "@Amethyst#3113 hbdsm"
         },
         {
             "command": "hdick (quantità)",
             "desc": "Hentai dick images",
             "usage": "@Amethyst#3113 hdick 3"
-        },
-        {
-            "command": "hsquirt (quantità)",
-            "desc": "Hentai squirt iamges",
-            "usage": "@Amethyst#3113 hsquirt 3"
         },
         {
             "command": "horal (quantità)",
@@ -283,11 +278,6 @@
             "command": "hmilf (quantità)",
             "desc": "Hentai milf images",
             "usage": "@Amethyst#3113 hmilf 3"
-        },
-        {
-            "command": "horgy (quantità)",
-            "desc": "Hentai orgy images",
-            "usage": "@Amethyst#3113 horgy 3"
         },
         {
             "command": "hanal",
@@ -315,9 +305,9 @@
             "usage": "@Amethyst#3113 hwet 3"
         },
         {
-            "command": "hcreampie (quantità)",
+            "command": "hcreampie",
             "desc": "Hentai creampie images",
-            "usage": "@Amethyst#3113 hcreampie 3"
+            "usage": "@Amethyst#3113 hcreampie"
         },
         {
             "command": "hfacial (quantità)",
@@ -345,19 +335,14 @@
             "usage": "@Amethyst#3113 tentacle"
         },
         {
-            "command": "furry (quantità)",
-            "desc": "Hentai furry images",
-            "usage": "@Amethyst#3113 furry 3"
-        },
-        {
             "command": "yuri (quantità)",
             "desc": "Hentai yuri images",
             "usage": "@Amethyst#3113 yuri 3"
         },
         {
-            "command": "yaoi (quantità)",
+            "command": "yaoi",
             "desc": "Hentai yaoi images",
-            "usage": "@Amethyst#3113 yaoi 3"
+            "usage": "@Amethyst#3113 yaoi"
         },
         {
             "command": "futa (quantità)",

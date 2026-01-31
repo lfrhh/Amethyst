@@ -28,7 +28,7 @@ Add her to your server with one click:
 
 Need help or want to report something?  
 Join the official support server:  
-[**💬 Support Server**](https://discord.gg/PAEUG5rBHf)d
+[**💬 Support Server**](https://discord.gg/PAEUG5rBHf)
 
 ---
 

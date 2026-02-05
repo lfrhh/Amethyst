@@ -172,9 +172,9 @@
             "usage": "@Amethyst#3113 porn"
         },
         {
-            "command": "rlblowjob (quantità)",
-            "desc": "Real blowjob videos",
-            "usage": "@Amethyst#3113 rlblowjob 3"
+            "command": "rlblowjob",
+            "desc": "GIF di pompini",
+            "usage": "@Amethyst#3113 rlblowjob"
         },
         {
             "command": "wet (quantità)",
@@ -202,14 +202,14 @@
             "usage": "@Amethyst#3113 squirt 3"
         },
         {
-            "command": "lesbian (quantità)",
-            "desc": "Lesbian videos",
-            "usage": "@Amethyst#3113 lesbian 3"
+            "command": "lesbian",
+            "desc": "Immagini lesbiche",
+            "usage": "@Amethyst#3113 lesbian"
         },
         {
-            "command": "gay (quantità)",
-            "desc": "Gay videos",
-            "usage": "@Amethyst#3113 gay 3"
+            "command": "gay",
+            "desc": "Immagini gay",
+            "usage": "@Amethyst#3113 gay"
         },
         {
             "command": "cowgirl (quantità)",
@@ -227,9 +227,9 @@
             "usage": "@Amethyst#3113 facial 3"
         },
         {
-            "command": "orgy (quantità)",
-            "desc": "Orgy videos",
-            "usage": "@Amethyst#3113 orgy 3"
+            "command": "orgy",
+            "desc": "Immagini di sesso di gruppo",
+            "usage": "@Amethyst#3113 orgy"
         },
         {
             "command": "titjob (quantità)",
@@ -240,6 +240,31 @@
             "command": "rlcreampie (quantità)",
             "desc": "Creampie videos",
             "usage": "@Amethyst#3113 rlcreampie 3"
+        },
+        {
+            "command": "rlbdsm",
+            "desc": "Foto di sesso BDSM",
+            "usage": "@Amethys#3113 rlbdsm"
+        },
+        {
+            "command": "rlbondage",
+            "desc": "Foto di sesso bondage",
+            "usage": "@Amethys#3113 rlbondage"
+        },
+        {
+            "command": "toys",
+            "desc": "Giocattoli sessuali",
+            "usage": "@Amethyst#3113 toys"
+        },
+        {
+            "command": "xmas",
+            "desc": "Sesso con abiti natalizi",
+            "usage": "@Amethyst#3113 xmas"
+        },
+        {
+            "command": "cum",
+            "desc": "GIF di eiaculazioni",
+            "usage": "@Amethyst#3113 cum"
         }
     ],
     "hentai": [

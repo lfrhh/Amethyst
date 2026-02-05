@@ -172,9 +172,9 @@
             "usage": "@Amethyst#3113 porn"
         },
         {
-            "command": "rlblowjob (amount)",
+            "command": "rlblowjob",
             "desc": "Real blowjob videos",
-            "usage": "@Amethyst#3113 rlblowjob 3"
+            "usage": "@Amethyst#3113 rlblowjob"
         },
         {
             "command": "wet (amount)",
@@ -202,14 +202,14 @@
             "usage": "@Amethyst#3113 squirt 3"
         },
         {
-            "command": "lesbian (amount)",
+            "command": "lesbian",
             "desc": "Lesbian videos",
-            "usage": "@Amethyst#3113 lesbian 3"
+            "usage": "@Amethyst#3113 lesbian"
         },
         {
-            "command": "gay (amount)",
+            "command": "gay",
             "desc": "Gay videos",
-            "usage": "@Amethyst#3113 gay 3"
+            "usage": "@Amethyst#3113 gay"
         },
         {
             "command": "cowgirl (amount)",
@@ -227,9 +227,9 @@
             "usage": "@Amethyst#3113 facial 3"
         },
         {
-            "command": "orgy (amount)",
+            "command": "orgy",
             "desc": "Orgy videos",
-            "usage": "@Amethyst#3113 orgy 3"
+            "usage": "@Amethyst#3113 orgy"
         },
         {
             "command": "titjob (amount)",
@@ -240,6 +240,31 @@
             "command": "rlcreampie (amount)",
             "desc": "Creampie videos",
             "usage": "@Amethyst#3113 rlcreampie 3"
+        },
+        {
+            "command": "rlbdsm",
+            "desc": "BDSM sex photos",
+            "usage": "@Amethys#3113 rlbdsm"
+        },
+        {
+            "command": "rlbondage",
+            "desc": "Bondage sex photos",
+            "usage": "@Amethys#3113 rlbondage"
+        },
+        {
+            "command": "toys",
+            "desc": "Sex toys",
+            "usage": "@Amethyst#3113 toys"
+        },
+        {
+            "command": "xmas",
+            "desc": "Sex with Christmas outfits",
+            "usage": "@Amethyst#3113 xmas"
+        },
+        {
+            "command": "cum",
+            "desc": "Cumshot GIFs",
+            "usage": "@Amethyst#3113 cum"
         }
     ],
     "hentai": [

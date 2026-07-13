@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 
-const AVATAR = "https://lfrhh.github.io/Amethyst/src/avatar.gif";
+const AVATAR = "https://cdn.discordapp.com/avatars/1206191775828545546/a_372e70568d3aba1d276c48591c994240.gif?size=2048";
 
 export function SiteHeader() {
   return (

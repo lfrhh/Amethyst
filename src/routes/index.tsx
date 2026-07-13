@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Flame, Handshake, Sparkles, Dice5, Plus, MessageCircle, Wrench, ArrowRight } from "lucide-react";
 
-const AVATAR = "https://lfrhh.github.io/Amethyst/src/avatar.gif";
+const AVATAR = "https://cdn.discordapp.com/avatars/1206191775828545546/a_372e70568d3aba1d276c48591c994240.gif?size=2048";
 const INVITE = "https://discord.com/oauth2/authorize?client_id=1206191775828545546";
 const SUPPORT = "https://discord.gg/PAEUG5rBHf";
 

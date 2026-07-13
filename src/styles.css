@@ -1,0 +1,173 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-crimson: var(--crimson);
+  --color-crimson-deep: var(--crimson-deep);
+  --color-blush: var(--blush);
+  --color-rose: var(--rose);
+
+  --font-display: "Fredoka", "Poppins", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+:root {
+  --radius: 1rem;
+
+  /* Amethyst palette */
+  --crimson-deep: oklch(0.28 0.13 20);
+  --crimson: oklch(0.45 0.18 22);
+  --rose: oklch(0.72 0.19 15);
+  --blush: oklch(0.86 0.09 15);
+
+  --background: oklch(0.28 0.13 20);
+  --foreground: oklch(0.98 0.01 15);
+
+  --card: oklch(0.34 0.14 20 / 0.55);
+  --card-foreground: oklch(0.98 0.01 15);
+
+  --popover: oklch(0.32 0.14 20);
+  --popover-foreground: oklch(0.98 0.01 15);
+
+  --primary: oklch(0.86 0.09 15);
+  --primary-foreground: oklch(0.28 0.13 20);
+
+  --secondary: oklch(0.4 0.16 22 / 0.6);
+  --secondary-foreground: oklch(0.98 0.01 15);
+
+  --muted: oklch(0.38 0.13 20 / 0.5);
+  --muted-foreground: oklch(0.88 0.03 15);
+
+  --accent: oklch(0.72 0.19 15);
+  --accent-foreground: oklch(0.98 0.01 15);
+
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.98 0.01 15);
+
+  --border: oklch(1 0 0 / 0.12);
+  --input: oklch(1 0 0 / 0.15);
+  --ring: oklch(0.86 0.09 15);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html, body {
+    background:
+      radial-gradient(ellipse at top left, oklch(0.5 0.2 20) 0%, transparent 55%),
+      radial-gradient(ellipse at bottom right, oklch(0.34 0.15 15) 0%, transparent 60%),
+      linear-gradient(180deg, oklch(0.3 0.14 20), oklch(0.22 0.12 20));
+    background-attachment: fixed;
+    color: var(--color-foreground);
+    font-family: var(--font-body);
+    min-height: 100%;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+}
+
+@utility glass-card {
+  background: linear-gradient(
+    145deg,
+    oklch(1 0 0 / 0.08),
+    oklch(1 0 0 / 0.02)
+  );
+  backdrop-filter: blur(14px);
+  border: 1px solid oklch(1 0 0 / 0.1);
+  box-shadow:
+    0 10px 40px -10px oklch(0.15 0.1 20 / 0.6),
+    inset 0 1px 0 oklch(1 0 0 / 0.08);
+}
+
+@utility text-gradient-blush {
+  background: linear-gradient(135deg, var(--blush), var(--rose));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility btn-primary {
+  background: linear-gradient(135deg, var(--blush), var(--rose));
+  color: oklch(0.25 0.12 20);
+  font-weight: 600;
+  box-shadow: 0 8px 24px -8px var(--rose);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px -8px var(--rose);
+  }
+}
+
+@utility btn-ghost {
+  background: oklch(1 0 0 / 0.06);
+  border: 1px solid oklch(1 0 0 / 0.15);
+  color: var(--color-foreground);
+  transition: background 0.2s ease, border-color 0.2s ease;
+  &:hover {
+    background: oklch(1 0 0 / 0.12);
+    border-color: var(--blush);
+  }
+}
+
+@utility avatar-halo {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: -14px;
+    border-radius: 9999px;
+    background: conic-gradient(from 0deg, var(--rose), var(--blush), var(--rose));
+    filter: blur(22px);
+    opacity: 0.55;
+    z-index: -1;
+    animation: halo-spin 8s linear infinite;
+  }
+}
+
+@keyframes halo-spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@utility float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}

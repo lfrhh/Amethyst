@@ -85,9 +85,8 @@
   }
   
   #root {
-    min-height: 100dvh;
+    min-height: 100%;
   }
-  
   html, body {
     background:
       radial-gradient(ellipse at top left, oklch(0.5 0.2 20) 0%, transparent 55%),
@@ -98,7 +97,7 @@
     background-attachment: fixed;
     color: var(--color-foreground);
     font-family: var(--font-body);
-    min-height: 100dvh;
+    min-height: 100%;
     margin: 0;
   }
 

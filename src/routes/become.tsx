@@ -20,7 +20,7 @@ export const Route = createFileRoute("/become")({
       {
         name: "description",
         content:
-          "Become Premium and unlock the Amethyst HUB: up to 10 images in NSFW commands, image reload, Premium User role, auto-delete, and extra /anime features.",
+          "Become Premium and unlock the Amethyst HUB, up to 10 images in NSFW commands, image reload, Premium User role, auto-delete, and extra /anime features.",
       },
       { property: "og:title", content: "Become Premium — Amethyst" },
       {
@@ -33,6 +33,11 @@ export const Route = createFileRoute("/become")({
 });
 
 const perks = [
+  {
+    icon: Plus,
+    title: "Amethyst HUB",
+    body: "Access to <strong>hub</strong> command. Videos, images and gifs all in the palm of your hand, fast and practical"
+  }
   {
     icon: Images,
     title: "Up to 10 Images",
@@ -67,7 +72,7 @@ function BecomePage() {
       <section className="text-center">
         <div className="inline-flex items-center gap-2 rounded-full glass-card px-3 py-1 text-xs text-muted-foreground mb-6">
           <Flame className="w-3.5 h-3.5 text-[var(--rose)]" />
-          Amethyst HUB — Premium
+          Amethyst — Premium
         </div>
 
         <h1 className="text-5xl sm:text-6xl font-bold leading-[1.05]">
@@ -75,8 +80,7 @@ function BecomePage() {
         </h1>
 
         <p className="mt-5 text-lg text-muted-foreground max-w-2xl mx-auto">
-          With Premium, you gain access to the <strong>Amethyst HUB</strong>.
-          Videos, images, and GIFs at your fingertips, fast and easy!
+          <strong>Unlock the full Amethyst experience.</strong> Enjoy exclusive features, faster access, more content, and premium perks designed to take your experience to the next level.
         </p>
       </section>
 

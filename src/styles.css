@@ -84,10 +84,13 @@
     border-color: var(--color-border);
   }
   
+  html,
+  body,
   #root {
-    min-height: 100%;
+    min-height: 100dvh;
   }
-  html, body {
+  body {
+    margin: 0;
     background:
       radial-gradient(ellipse at top left, oklch(0.5 0.2 20) 0%, transparent 55%),
       radial-gradient(ellipse at bottom right, oklch(0.34 0.15 15) 0%, transparent 60%),
@@ -97,8 +100,6 @@
     background-attachment: fixed;
     color: var(--color-foreground);
     font-family: var(--font-body);
-    min-height: 100%;
-    margin: 0;
   }
 
   h1, h2, h3, h4 {

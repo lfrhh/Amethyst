@@ -78,18 +78,6 @@ function BecomePage() {
           With Premium, you gain access to the <strong>Amethyst HUB</strong>.
           Videos, images, and GIFs at your fingertips, fast and easy!
         </p>
-
-        <div className="mt-8 flex justify-center">
-          <a
-            href={SUPPORT}
-            target="_blank"
-            rel="noreferrer"
-            className="btn-primary inline-flex items-center gap-2 rounded-xl px-6 py-3.5 text-base"
-          >
-            <MessageCircle className="w-5 h-5" />
-            Become
-          </a>
-        </div>
       </section>
 
       {/* Perks */}

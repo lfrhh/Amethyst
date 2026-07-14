@@ -94,7 +94,7 @@ function RootShell({ children }: { children: ReactNode }) {
       <head>
         <HeadContent />
       </head>
-      <body className="min-h-[100dvh]">
+      <body className="fixed inset-0 -z-50 bg-app">
         {children}
         <Scripts />
       </body>

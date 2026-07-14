@@ -65,6 +65,10 @@ function Home() {
               className="btn-ghost inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm">
               <Wrench className="w-4 h-4" /> Commands
             </Link>
+            <Link to="/become"
+              className="btn-primary inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm">
+              <Sparkles className="w-4 h-4" />Go Premium
+            </Link>
           </div>
         </div>
 

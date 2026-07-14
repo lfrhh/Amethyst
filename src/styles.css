@@ -93,8 +93,6 @@
       radial-gradient(ellipse at top left, oklch(0.5 0.2 20) 0%, transparent 55%),
       radial-gradient(ellipse at bottom right, oklch(0.34 0.15 15) 0%, transparent 60%),
       linear-gradient(180deg, oklch(0.3 0.14 20), oklch(0.22 0.12 20));
-    background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
     color: var(--color-foreground);
     font-family: var(--font-body);

@@ -36,8 +36,8 @@ const perks = [
   {
     icon: Plus,
     title: "Amethyst HUB",
-    body: "Access to <strong>hub</strong> command. Videos, images and gifs all in the palm of your hand, fast and practical"
-  }
+    body: "Access to <strong>hub</strong> command. Videos, images and gifs all in the palm of your hand, fast and practical",
+  },
   {
     icon: Images,
     title: "Up to 10 Images",

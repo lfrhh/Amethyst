@@ -9,6 +9,7 @@ import {
   Sparkles,
   Globe,
   MessageCircle,
+  Plus,
 } from "lucide-react";
 
 const SUPPORT = "https://discord.gg/PAEUG5rBHf";

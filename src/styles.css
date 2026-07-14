@@ -80,6 +80,10 @@
 }
 
 @layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  
   html,
   body,
   #root {

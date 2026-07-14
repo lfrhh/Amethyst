@@ -94,7 +94,7 @@ function RootShell({ children }: { children: ReactNode }) {
       <head>
         <HeadContent />
       </head>
-      <body className="fixed inset-0 -z-50 bg-app">
+      <body>
         {children}
         <Scripts />
       </body>
@@ -106,7 +106,7 @@ function RootComponent() {
   const { queryClient } = Route.useRouteContext();
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="min-h-[100dvh] flex flex-col">
+      <div className="flex min-h-screen flex-col">
         <SiteHeader />
         <main className="flex-1">
           <Outlet />
